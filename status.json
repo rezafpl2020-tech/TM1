@@ -1,6 +1,9 @@
 {
   "account_id": 1,
-  "minutes_used_this_month": 0,
+  "initialized_at": "2026-04-18T17:08:02Z",
   "last_month": "2026-04",
-  "initialized_at": "2026-04-18T17:08:02Z"
+  "last_run_at": "2026-04-18T17:26:11+00:00",
+  "last_run_minutes": 1,
+  "last_run_workflow": "scrape-daily",
+  "minutes_used_this_month": 1
 }
