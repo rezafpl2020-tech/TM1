@@ -1,0 +1,200 @@
+name: Backfill Scrape
+
+# Runs daily at 03:XX UTC (one hour after daily scrape) on each TM{N} worker.
+# Reads .tm-control/seasons/backfill_schedule.json — if today's date is
+# listed, scrapes those historical seasons for this worker's assigned comps.
+# Otherwise exits cleanly (no-op).
+#
+# Schedule is non-aggressive: daily runs but most days are no-ops after
+# backfill completes (~12 days wallclock).
+
+on:
+  schedule:
+    - cron: '05 3 * * *'     # 03:XX UTC daily
+  workflow_dispatch:
+    inputs:
+      override_season:
+        description: 'Scrape this specific season (YYYY) instead of schedule'
+        required: false
+        default: ''
+        type: string
+      force_all:
+        description: 'Ignore quota guard'
+        required: false
+        default: 'false'
+        type: choice
+        options: ['false', 'true']
+
+concurrency:
+  group: scrape-backfill
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+
+    env:
+      DCARIBOU_IMAGE:    dcaribou/transfermarkt-scraper:main
+      TM_CONTROL_REPO:   https://github.com/arifin971/tm-control.git
+      CONTROL_RAW_BASE:  https://raw.githubusercontent.com/arifin971/tm-control/main
+      COMP_COOLDOWN_S:   '30'
+      MAX_MINUTES:       '320'
+      QUOTA_LIMIT:       '2000'
+      QUOTA_THRESHOLD:   '0.90'
+      OVERRIDE_SEASON:   ${{ github.event.inputs.override_season || '' }}
+      FORCE_ALL:         ${{ github.event.inputs.force_all || 'false' }}
+      PYTHONUNBUFFERED:  '1'
+
+    steps:
+      - name: Checkout worker repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Derive ACCOUNT_ID from repo name (TM{N})
+        run: |
+          ACCOUNT_ID="$(echo "$GITHUB_REPOSITORY" | sed -E 's|.*/TM([0-9]+)$|\1|')"
+          if ! [[ "$ACCOUNT_ID" =~ ^[1-9][0-9]?$ ]]; then
+            echo "ERROR: could not derive ACCOUNT_ID from $GITHUB_REPOSITORY"
+            exit 1
+          fi
+          echo "ACCOUNT_ID=$ACCOUNT_ID" >> "$GITHUB_ENV"
+
+      - name: Pre-flight — quota self-check
+        run: |
+          python - <<'PY'
+          import json, os, sys, pathlib
+          status_file = pathlib.Path("status.json")
+          limit     = int(os.environ["QUOTA_LIMIT"])
+          threshold = float(os.environ["QUOTA_THRESHOLD"])
+          force_all = os.environ.get("FORCE_ALL", "false").lower() == "true"
+
+          used = 0
+          if status_file.exists():
+              try:
+                  used = int(json.loads(status_file.read_text()).get("minutes_used_this_month", 0))
+              except Exception:
+                  used = 0
+
+          pct = used / limit if limit else 0
+          print(f"Quota: {used}/{limit}min ({pct*100:.1f}%)")
+          if pct >= threshold and not force_all:
+              print(f"⚠ Quota ≥ {threshold*100:.0f}%. Skipping backfill.")
+              sys.exit(0)
+          PY
+
+      - name: Clone tm-control
+        run: |
+          rm -rf .tm-control
+          git clone --depth 1 "$TM_CONTROL_REPO" .tm-control
+
+      - name: Decide today's seasons
+        id: today
+        run: |
+          python - <<PY
+          import json, os, sys, pathlib, datetime as dt
+          override = os.environ.get("OVERRIDE_SEASON", "").strip()
+          if override:
+              seasons = [int(override)]
+              print(f"Override: scraping season {override} only")
+          else:
+              sched_file = pathlib.Path(".tm-control/seasons/backfill_schedule.json")
+              if not sched_file.exists():
+                  print("No backfill_schedule.json yet — exiting cleanly.")
+                  sys.exit(0)
+              sched = json.loads(sched_file.read_text())
+              today = dt.datetime.now(dt.timezone.utc).date().isoformat()
+              seasons = sched.get("schedule", {}).get(today, [])
+              if not seasons:
+                  print(f"No backfill scheduled for {today}. No-op.")
+                  # Write empty seasons file so subsequent step skips
+                  with open("TODAYS_SEASONS", "w") as f:
+                      f.write("")
+                  sys.exit(0)
+              print(f"Today ({today}): scraping seasons {seasons}")
+
+          with open("TODAYS_SEASONS", "w") as f:
+              f.write(" ".join(str(s) for s in seasons))
+          PY
+
+      - name: Exit early if no seasons scheduled
+        run: |
+          if [[ ! -s TODAYS_SEASONS ]]; then
+            echo "No seasons to scrape today. Exiting successfully."
+            exit 0
+          fi
+          echo "SEASONS_TO_SCRAPE=$(cat TODAYS_SEASONS)" >> "$GITHUB_ENV"
+
+      - name: Verify assignments.json exists
+        if: env.SEASONS_TO_SCRAPE != ''
+        run: |
+          if [[ ! -s .tm-control/assignments.json ]]; then
+            echo "ERROR: .tm-control/assignments.json missing or empty."
+            exit 1
+          fi
+
+      - name: Pull dcaribou image
+        if: env.SEASONS_TO_SCRAPE != ''
+        run: docker pull "$DCARIBOU_IMAGE"
+
+      - name: Record run start
+        if: env.SEASONS_TO_SCRAPE != ''
+        id: timing
+        run: echo "start_epoch=$(date -u +%s)" >> "$GITHUB_OUTPUT"
+
+      - name: Run backfill for today's seasons
+        if: env.SEASONS_TO_SCRAPE != ''
+        run: |
+          bash .tm-control/scripts/worker_scrape_backfill.sh
+          # Reads $SEASONS_TO_SCRAPE (space-separated), iterates, calls dcaribou
+          # once per (comp, season). Writes data/{comp}/{season}/*.jsonl.
+
+      - name: Update status.json
+        if: always() && env.SEASONS_TO_SCRAPE != ''
+        run: |
+          END=$(date -u +%s)
+          START=${{ steps.timing.outputs.start_epoch }}
+          ELAPSED_MIN=$(( (END - START) / 60 ))
+          python - <<PY
+          import json, pathlib, os, datetime as dt
+          f = pathlib.Path("status.json")
+          try:
+              data = json.loads(f.read_text()) if f.exists() else {}
+          except Exception:
+              data = {}
+          now = dt.datetime.now(dt.timezone.utc)
+          this_month = now.strftime("%Y-%m")
+          if data.get("last_month") != this_month:
+              data["minutes_used_this_month"] = 0
+              data["last_month"] = this_month
+          data["account_id"] = int(os.environ["ACCOUNT_ID"])
+          data["minutes_used_this_month"] = int(data.get("minutes_used_this_month", 0)) + $ELAPSED_MIN
+          data["last_backfill_at"] = now.isoformat(timespec="seconds")
+          data["last_backfill_seasons"] = os.environ.get("SEASONS_TO_SCRAPE", "").split()
+          data["last_run_workflow"] = "scrape-backfill"
+          f.write_text(json.dumps(data, indent=2, sort_keys=True))
+          PY
+
+      - name: Cleanup
+        if: always()
+        run: rm -rf .tm-control TODAYS_SEASONS
+
+      - name: Commit data + status
+        if: always() && env.SEASONS_TO_SCRAPE != ''
+        run: |
+          git config user.name  "tm${ACCOUNT_ID}-bot"
+          git config user.email "tm${ACCOUNT_ID}-bot@users.noreply.github.com"
+          git add data/ status.json 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "backfill: account ${ACCOUNT_ID} seasons ${SEASONS_TO_SCRAPE} @ $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          fi
