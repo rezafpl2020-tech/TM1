@@ -6,7 +6,7 @@ name: Daily Scrape
 #
 # This workflow:
 #   1. Checks its own quota usage, exits cleanly if ≥90%
-#   2. Clones arifin971/tm-control (public) for shared scraper code + assignments
+#   2. Clones Transfermarket-coord/tm-control (public) for shared scraper code + assignments
 #   3. Reads assignments.json → picks this worker's competitions
 #   4. Runs dcaribou scraper for the CURRENT season only (2025)
 #   5. Writes JSONL output to data/{comp_id}/{season}/*.jsonl
@@ -40,8 +40,8 @@ jobs:
     env:
       SEASON:            '2025'
       DCARIBOU_IMAGE:    dcaribou/transfermarkt-scraper:main
-      TM_CONTROL_REPO:   https://github.com/arifin971/tm-control.git
-      CONTROL_RAW_BASE:  https://raw.githubusercontent.com/arifin971/tm-control/main
+      TM_CONTROL_REPO:   https://github.com/Transfermarket-coord/tm-control.git
+      CONTROL_RAW_BASE:  https://raw.githubusercontent.com/Transfermarket-coord/tm-control/main
       COMP_COOLDOWN_S:   '30'
       MAX_MINUTES:       '320'
       QUOTA_LIMIT:       '2000'
@@ -107,7 +107,7 @@ jobs:
           ASSIGN=.tm-control/assignments.json
           if [[ ! -s "$ASSIGN" ]]; then
             echo "ERROR: $ASSIGN missing or empty. Has control plane run yet?"
-            echo "Run discovery workflow on arifin971/tm-control first."
+            echo "Run discovery workflow on Transfermarket-coord/tm-control first."
             exit 1
           fi
           wc -l "$ASSIGN"

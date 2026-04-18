@@ -39,8 +39,8 @@ jobs:
 
     env:
       DCARIBOU_IMAGE:    dcaribou/transfermarkt-scraper:main
-      TM_CONTROL_REPO:   https://github.com/arifin971/tm-control.git
-      CONTROL_RAW_BASE:  https://raw.githubusercontent.com/arifin971/tm-control/main
+      TM_CONTROL_REPO:   https://github.com/Transfermarket-coord/tm-control.git
+      CONTROL_RAW_BASE:  https://raw.githubusercontent.com/Transfermarket-coord/tm-control/main
       COMP_COOLDOWN_S:   '30'
       MAX_MINUTES:       '320'
       QUOTA_LIMIT:       '2000'
