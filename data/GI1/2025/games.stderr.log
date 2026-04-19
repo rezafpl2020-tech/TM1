@@ -33,12 +33,12 @@ crawlee.errors.HttpClientStatusCodeError: Client error status code returned (sta
 │ requests_finished             │ 0       │
 │ requests_failed               │ 1       │
 │ retry_histogram               │ [1]     │
-│ request_avg_failed_duration   │ 101.6ms │
+│ request_avg_failed_duration   │ 156.9ms │
 │ request_avg_finished_duration │ None    │
 │ requests_finished_per_minute  │ 0       │
-│ requests_failed_per_minute    │ 509     │
-│ request_total_duration        │ 101.6ms │
+│ requests_failed_per_minute    │ 341     │
+│ request_total_duration        │ 156.9ms │
 │ requests_total                │ 1       │
-│ crawler_runtime               │ 117.6ms │
+│ crawler_runtime               │ 175.5ms │
 └───────────────────────────────┴─────────┘
 [90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/gibraltar-football-league/startseite/wettbewerb/GI1/plus/0?saison_id=2025: Client error status code returned (status code: 405).

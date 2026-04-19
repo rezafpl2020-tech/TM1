@@ -33,12 +33,12 @@ crawlee.errors.HttpClientStatusCodeError: Client error status code returned (sta
 │ requests_finished             │ 0       │
 │ requests_failed               │ 1       │
 │ retry_histogram               │ [1]     │
-│ request_avg_failed_duration   │ 106.6ms │
+│ request_avg_failed_duration   │ 112.9ms │
 │ request_avg_finished_duration │ None    │
 │ requests_finished_per_minute  │ 0       │
-│ requests_failed_per_minute    │ 487     │
-│ request_total_duration        │ 106.6ms │
+│ requests_failed_per_minute    │ 460     │
+│ request_total_duration        │ 112.9ms │
 │ requests_total                │ 1       │
-│ crawler_runtime               │ 123.1ms │
+│ crawler_runtime               │ 130.4ms │
 └───────────────────────────────┴─────────┘
 [90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/hong-kong-fa-cup/startseite/pokalwettbewerb/HKFA?saison_id=2025: Client error status code returned (status code: 405).
