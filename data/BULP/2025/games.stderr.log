@@ -1,0 +1,44 @@
+[90m[ParselCrawler][0m [32mINFO [0m Current request statistics:
+┌───────────────────────────────┬──────┐
+│ requests_finished             │ 0    │
+│ requests_failed               │ 0    │
+│ retry_histogram               │ [0]  │
+│ request_avg_failed_duration   │ None │
+│ request_avg_finished_duration │ None │
+│ requests_finished_per_minute  │ 0    │
+│ requests_failed_per_minute    │ 0    │
+│ request_total_duration        │ 0s   │
+│ requests_total                │ 0    │
+│ crawler_runtime               │ 0s   │
+└───────────────────────────────┴──────┘
+[90m[ParselCrawler][0m [32mINFO [0m Crawled 0/1 pages, 0 failed requests, desired concurrency 10.
+[90m[crawlee._autoscaling.autoscaled_pool][0m [32mINFO [0m current_concurrency = 0; desired_concurrency = 10; cpu = 0; mem = 0; event_loop = 0.0; client_info = 0.0
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/bulgarian-cup/startseite/pokalwettbewerb/BULP?saison_id=2025 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 100, in __call__
+    result = await middleware_instance.action()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 40, in action
+    self.output_context = await self.generator.__anext__()
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_abstract_http/_abstract_http_crawler.py", line 296, in _handle_status_code_response
+    self._raise_for_error_status_code(status_code)
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1542, in _raise_for_error_status_code
+    raise HttpClientStatusCodeError('Client error status code returned', status_code)
+crawlee.errors.HttpClientStatusCodeError: Client error status code returned (status code: 405).
+[90m[crawlee._autoscaling.autoscaled_pool][0m [32mINFO [0m Waiting for remaining tasks to finish
+[90m[ParselCrawler][0m [32mINFO [0m Error analysis: total_errors=1 unique_errors=1
+[90m[ParselCrawler][0m [32mINFO [0m Final request statistics:
+┌───────────────────────────────┬─────────┐
+│ requests_finished             │ 0       │
+│ requests_failed               │ 1       │
+│ retry_histogram               │ [1]     │
+│ request_avg_failed_duration   │ 258.7ms │
+│ request_avg_finished_duration │ None    │
+│ requests_finished_per_minute  │ 0       │
+│ requests_failed_per_minute    │ 217     │
+│ request_total_duration        │ 258.7ms │
+│ requests_total                │ 1       │
+│ crawler_runtime               │ 275.7ms │
+└───────────────────────────────┴─────────┘
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/bulgarian-cup/startseite/pokalwettbewerb/BULP?saison_id=2025: Client error status code returned (status code: 405).
