@@ -6,8 +6,8 @@
     "2024"
   ],
   "last_month": "2026-04",
-  "last_run_at": "2026-04-20T09:28:53+00:00",
-  "last_run_minutes": 3,
+  "last_run_at": "2026-04-21T07:59:09+00:00",
+  "last_run_minutes": 41,
   "last_run_workflow": "scrape-daily",
-  "minutes_used_this_month": 81
+  "minutes_used_this_month": 122
 }
