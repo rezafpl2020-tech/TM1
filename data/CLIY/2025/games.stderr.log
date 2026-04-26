@@ -13,7 +13,7 @@
 └───────────────────────────────┴──────┘
 [90m[ParselCrawler][0m [32mINFO [0m Crawled 0/1 pages, 0 failed requests, desired concurrency 10.
 [90m[crawlee._autoscaling.autoscaled_pool][0m [32mINFO [0m current_concurrency = 0; desired_concurrency = 10; cpu = 0; mem = 0; event_loop = 0.0; client_info = 0.0
-[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/campeonato-sudamericano-1925/startseite/pokalwettbewerb/CA25?saison_id=2025 failed and reached maximum retries
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/u20-copa-libertadores/startseite/pokalwettbewerb/CLIY?saison_id=2025 failed and reached maximum retries
  Traceback (most recent call last):
   File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 100, in __call__
     result = await middleware_instance.action()
@@ -29,16 +29,16 @@ crawlee.errors.HttpClientStatusCodeError: Client error status code returned (sta
 [90m[crawlee._autoscaling.autoscaled_pool][0m [32mINFO [0m Waiting for remaining tasks to finish
 [90m[ParselCrawler][0m [32mINFO [0m Error analysis: total_errors=1 unique_errors=1
 [90m[ParselCrawler][0m [32mINFO [0m Final request statistics:
-┌───────────────────────────────┬─────────┐
-│ requests_finished             │ 0       │
-│ requests_failed               │ 1       │
-│ retry_histogram               │ [1]     │
-│ request_avg_failed_duration   │ 201.2ms │
-│ request_avg_finished_duration │ None    │
-│ requests_finished_per_minute  │ 0       │
-│ requests_failed_per_minute    │ 273     │
-│ request_total_duration        │ 201.2ms │
-│ requests_total                │ 1       │
-│ crawler_runtime               │ 219.1ms │
-└───────────────────────────────┴─────────┘
-[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/campeonato-sudamericano-1925/startseite/pokalwettbewerb/CA25?saison_id=2025: Client error status code returned (status code: 405).
+┌───────────────────────────────┬────────┐
+│ requests_finished             │ 0      │
+│ requests_failed               │ 1      │
+│ retry_histogram               │ [1]    │
+│ request_avg_failed_duration   │ 71.7ms │
+│ request_avg_finished_duration │ None   │
+│ requests_finished_per_minute  │ 0      │
+│ requests_failed_per_minute    │ 664    │
+│ request_total_duration        │ 71.7ms │
+│ requests_total                │ 1      │
+│ crawler_runtime               │ 90.2ms │
+└───────────────────────────────┴────────┘
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/u20-copa-libertadores/startseite/pokalwettbewerb/CLIY?saison_id=2025: Client error status code returned (status code: 405).
