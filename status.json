@@ -1,14 +1,14 @@
 {
   "account_id": 1,
   "initialized_at": "2026-04-18T17:08:02Z",
-  "last_backfill_at": "2026-04-26T08:19:29+00:00",
+  "last_backfill_at": "2026-04-27T10:41:43+00:00",
   "last_backfill_seasons": [
-    "2012",
-    "2011"
+    "2009",
+    "2007"
   ],
   "last_month": "2026-04",
   "last_run_at": "2026-04-27T10:29:01+00:00",
   "last_run_minutes": 1,
-  "last_run_workflow": "scrape-daily",
-  "minutes_used_this_month": 358
+  "last_run_workflow": "scrape-backfill",
+  "minutes_used_this_month": 366
 }
