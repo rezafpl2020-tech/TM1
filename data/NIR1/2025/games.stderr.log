@@ -1,0 +1,1899 @@
+[90m[ParselCrawler][0m [32mINFO [0m Current request statistics:
+┌───────────────────────────────┬──────┐
+│ requests_finished             │ 0    │
+│ requests_failed               │ 0    │
+│ retry_histogram               │ [0]  │
+│ request_avg_failed_duration   │ None │
+│ request_avg_finished_duration │ None │
+│ requests_finished_per_minute  │ 0    │
+│ requests_failed_per_minute    │ 0    │
+│ request_total_duration        │ 0s   │
+│ requests_total                │ 0    │
+│ crawler_runtime               │ 0s   │
+└───────────────────────────────┴──────┘
+[90m[ParselCrawler][0m [32mINFO [0m Crawled 0/1 pages, 0 failed requests, desired concurrency 10.
+[90m[crawlee._autoscaling.autoscaled_pool][0m [32mINFO [0m current_concurrency = 0; desired_concurrency = 10; cpu = 0; mem = 0; event_loop = 0.0; client_info = 0.0
+[90m[ParselCrawler][0m [32mINFO [0m Crawled 49/200 pages, 0 failed requests, desired concurrency 10.
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/portadown-fc_ballymena-united-fc/index/spielbericht/4641908 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/ballymena-united-fc_carrick-rangers-fc/index/spielbericht/4641909 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/bangor-fc_cliftonville-fc/index/spielbericht/4641910 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/crusaders-fc_larne-fc/index/spielbericht/4641911 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/dungannon-swifts-fc_portadown-fc/index/spielbericht/4641912 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/glenavon-fc_linfield-fc/index/spielbericht/4641913 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/carrick-rangers-fc_larne-fc/index/spielbericht/4641916 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/cliftonville-fc_crusaders-fc/index/spielbericht/4641917 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/linfield-fc_glentoran-fc/index/spielbericht/4641919 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/portadown-fc_glenavon-fc/index/spielbericht/4641920 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/bangor-fc_ballymena-united-fc/index/spielbericht/4641921 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/coleraine-fc_linfield-fc/index/spielbericht/4641922 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/crusaders-fc_carrick-rangers-fc/index/spielbericht/4641923 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [32mINFO [0m Crawled 115/200 pages, 0 failed requests, desired concurrency 11.
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/glenavon-fc_dungannon-swifts-fc/index/spielbericht/4641924 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/glentoran-fc_portadown-fc/index/spielbericht/4641925 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/carrick-rangers-fc_glentoran-fc/index/spielbericht/4641928 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/larne-fc_coleraine-fc/index/spielbericht/4641930 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/larne-fc_cliftonville-fc/index/spielbericht/4641926 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/crusaders-fc_dungannon-swifts-fc/index/spielbericht/4641929 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/ballymena-united-fc_glenavon-fc/index/spielbericht/4641927 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/linfield-fc_bangor-fc/index/spielbericht/4641931 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/linfield-fc_larne-fc/index/spielbericht/4641938 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/portadown-fc_cliftonville-fc/index/spielbericht/4641932 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/bangor-fc_portadown-fc/index/spielbericht/4641933 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/cliftonville-fc_carrick-rangers-fc/index/spielbericht/4641934 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/coleraine-fc_crusaders-fc/index/spielbericht/4641935 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/dungannon-swifts-fc_ballymena-united-fc/index/spielbericht/4641936 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/coleraine-fc_glenavon-fc/index/spielbericht/4641941 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/glenavon-fc_glentoran-fc/index/spielbericht/4641937 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/larne-fc_bangor-fc/index/spielbericht/4641944 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/crusaders-fc_linfield-fc/index/spielbericht/4641942 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/carrick-rangers-fc_dungannon-swifts-fc/index/spielbericht/4641940 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/glentoran-fc_cliftonville-fc/index/spielbericht/4641943 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/bangor-fc_coleraine-fc/index/spielbericht/4641945 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/ballymena-united-fc_portadown-fc/index/spielbericht/4641939 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/dungannon-swifts-fc_glentoran-fc/index/spielbericht/4641947 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/glenavon-fc_cliftonville-fc/index/spielbericht/4641948 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/crusaders-fc_larne-fc/index/spielbericht/4641946 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/linfield-fc_ballymena-united-fc/index/spielbericht/4641949 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/portadown-fc_carrick-rangers-fc/index/spielbericht/4641950 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/cliftonville-fc_bangor-fc/index/spielbericht/4641953 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/carrick-rangers-fc_glenavon-fc/index/spielbericht/4641952 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/coleraine-fc_portadown-fc/index/spielbericht/4641954 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/larne-fc_glentoran-fc/index/spielbericht/4641955 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/linfield-fc_dungannon-swifts-fc/index/spielbericht/4641956 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/ballymena-united-fc_crusaders-fc/index/spielbericht/4641951 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/dungannon-swifts-fc_cliftonville-fc/index/spielbericht/4641959 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/carrick-rangers-fc_coleraine-fc/index/spielbericht/4641957 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/crusaders-fc_bangor-fc/index/spielbericht/4641958 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/glenavon-fc_linfield-fc/index/spielbericht/4641960 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/coleraine-fc_ballymena-united-fc/index/spielbericht/4641965 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/glentoran-fc_ballymena-united-fc/index/spielbericht/4641961 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/portadown-fc_larne-fc/index/spielbericht/4641962 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/larne-fc_carrick-rangers-fc/index/spielbericht/4641966 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/bangor-fc_glenavon-fc/index/spielbericht/4641963 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/portadown-fc_dungannon-swifts-fc/index/spielbericht/4641968 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/ballymena-united-fc_larne-fc/index/spielbericht/4641969 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/linfield-fc_glentoran-fc/index/spielbericht/4641967 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/carrick-rangers-fc_bangor-fc/index/spielbericht/4641970 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/cliftonville-fc_crusaders-fc/index/spielbericht/4641964 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/dungannon-swifts-fc_coleraine-fc/index/spielbericht/4641972 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/linfield-fc_portadown-fc/index/spielbericht/4641980 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/bangor-fc_glentoran-fc/index/spielbericht/4641976 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/glenavon-fc_portadown-fc/index/spielbericht/4641973 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/glentoran-fc_crusaders-fc/index/spielbericht/4641974 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/cliftonville-fc_linfield-fc/index/spielbericht/4641971 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/larne-fc_dungannon-swifts-fc/index/spielbericht/4641979 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/ballymena-united-fc_carrick-rangers-fc/index/spielbericht/4641975 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/carrick-rangers-fc_linfield-fc/index/spielbericht/4641981 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/glenavon-fc_larne-fc/index/spielbericht/4641984 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/dungannon-swifts-fc_bangor-fc/index/spielbericht/4641983 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/coleraine-fc_cliftonville-fc/index/spielbericht/4641977 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/crusaders-fc_glenavon-fc/index/spielbericht/4641978 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/portadown-fc_crusaders-fc/index/spielbericht/4641986 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/glentoran-fc_coleraine-fc/index/spielbericht/4641985 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/ballymena-united-fc_carrick-rangers-fc/index/spielbericht/4641909 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/portadown-fc_ballymena-united-fc/index/spielbericht/4641908 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/cliftonville-fc_ballymena-united-fc/index/spielbericht/4641982 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/bangor-fc_cliftonville-fc/index/spielbericht/4641910 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/linfield-fc_glentoran-fc/index/spielbericht/4641919 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/carrick-rangers-fc_larne-fc/index/spielbericht/4641916 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/crusaders-fc_larne-fc/index/spielbericht/4641911 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/glenavon-fc_linfield-fc/index/spielbericht/4641913 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/cliftonville-fc_crusaders-fc/index/spielbericht/4641917 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/dungannon-swifts-fc_portadown-fc/index/spielbericht/4641912 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/coleraine-fc_linfield-fc/index/spielbericht/4641922 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/crusaders-fc_carrick-rangers-fc/index/spielbericht/4641923 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/portadown-fc_glenavon-fc/index/spielbericht/4641920 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/glenavon-fc_dungannon-swifts-fc/index/spielbericht/4641924 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/bangor-fc_ballymena-united-fc/index/spielbericht/4641921 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/glentoran-fc_portadown-fc/index/spielbericht/4641925 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/carrick-rangers-fc_glentoran-fc/index/spielbericht/4641928 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/larne-fc_coleraine-fc/index/spielbericht/4641930 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/linfield-fc_bangor-fc/index/spielbericht/4641931 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/linfield-fc_larne-fc/index/spielbericht/4641938 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/larne-fc_cliftonville-fc/index/spielbericht/4641926 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/ballymena-united-fc_glenavon-fc/index/spielbericht/4641927 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/crusaders-fc_dungannon-swifts-fc/index/spielbericht/4641929 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/cliftonville-fc_carrick-rangers-fc/index/spielbericht/4641934 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/portadown-fc_cliftonville-fc/index/spielbericht/4641932 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/bangor-fc_portadown-fc/index/spielbericht/4641933 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/crusaders-fc_linfield-fc/index/spielbericht/4641942 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/larne-fc_bangor-fc/index/spielbericht/4641944 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/dungannon-swifts-fc_ballymena-united-fc/index/spielbericht/4641936 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/glenavon-fc_glentoran-fc/index/spielbericht/4641937 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/coleraine-fc_glenavon-fc/index/spielbericht/4641941 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/coleraine-fc_crusaders-fc/index/spielbericht/4641935 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/bangor-fc_coleraine-fc/index/spielbericht/4641945 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/glentoran-fc_cliftonville-fc/index/spielbericht/4641943 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/carrick-rangers-fc_dungannon-swifts-fc/index/spielbericht/4641940 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/glenavon-fc_cliftonville-fc/index/spielbericht/4641948 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/crusaders-fc_larne-fc/index/spielbericht/4641946 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/portadown-fc_carrick-rangers-fc/index/spielbericht/4641950 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/carrick-rangers-fc_glenavon-fc/index/spielbericht/4641952 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/coleraine-fc_portadown-fc/index/spielbericht/4641954 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/cliftonville-fc_bangor-fc/index/spielbericht/4641953 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/ballymena-united-fc_portadown-fc/index/spielbericht/4641939 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/linfield-fc_ballymena-united-fc/index/spielbericht/4641949 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/dungannon-swifts-fc_glentoran-fc/index/spielbericht/4641947 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/linfield-fc_dungannon-swifts-fc/index/spielbericht/4641956 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/dungannon-swifts-fc_cliftonville-fc/index/spielbericht/4641959 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/glenavon-fc_linfield-fc/index/spielbericht/4641960 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/carrick-rangers-fc_coleraine-fc/index/spielbericht/4641957 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/larne-fc_glentoran-fc/index/spielbericht/4641955 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/coleraine-fc_ballymena-united-fc/index/spielbericht/4641965 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/glentoran-fc_ballymena-united-fc/index/spielbericht/4641961 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/ballymena-united-fc_crusaders-fc/index/spielbericht/4641951 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/crusaders-fc_bangor-fc/index/spielbericht/4641958 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/portadown-fc_dungannon-swifts-fc/index/spielbericht/4641968 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/linfield-fc_glentoran-fc/index/spielbericht/4641967 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/bangor-fc_glenavon-fc/index/spielbericht/4641963 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/dungannon-swifts-fc_coleraine-fc/index/spielbericht/4641972 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/cliftonville-fc_crusaders-fc/index/spielbericht/4641964 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/ballymena-united-fc_larne-fc/index/spielbericht/4641969 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/portadown-fc_larne-fc/index/spielbericht/4641962 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/larne-fc_carrick-rangers-fc/index/spielbericht/4641966 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/carrick-rangers-fc_bangor-fc/index/spielbericht/4641970 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/linfield-fc_portadown-fc/index/spielbericht/4641980 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/glentoran-fc_crusaders-fc/index/spielbericht/4641974 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/ballymena-united-fc_carrick-rangers-fc/index/spielbericht/4641975 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/carrick-rangers-fc_linfield-fc/index/spielbericht/4641981 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/dungannon-swifts-fc_bangor-fc/index/spielbericht/4641983 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/glenavon-fc_larne-fc/index/spielbericht/4641984 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/larne-fc_dungannon-swifts-fc/index/spielbericht/4641979 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/cliftonville-fc_linfield-fc/index/spielbericht/4641971 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/bangor-fc_glentoran-fc/index/spielbericht/4641976 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/glenavon-fc_portadown-fc/index/spielbericht/4641973 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/crusaders-fc_glenavon-fc/index/spielbericht/4641978 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/coleraine-fc_cliftonville-fc/index/spielbericht/4641977 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/cliftonville-fc_ballymena-united-fc/index/spielbericht/4641982 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/linfield-fc_glentoran-fc/index/spielbericht/4641919 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/bangor-fc_cliftonville-fc/index/spielbericht/4641910 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/portadown-fc_crusaders-fc/index/spielbericht/4641986 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/carrick-rangers-fc_larne-fc/index/spielbericht/4641916 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/glentoran-fc_coleraine-fc/index/spielbericht/4641985 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/crusaders-fc_larne-fc/index/spielbericht/4641911 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/cliftonville-fc_crusaders-fc/index/spielbericht/4641917 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/glenavon-fc_linfield-fc/index/spielbericht/4641913 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/portadown-fc_ballymena-united-fc/index/spielbericht/4641908 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/ballymena-united-fc_carrick-rangers-fc/index/spielbericht/4641909 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/portadown-fc_glenavon-fc/index/spielbericht/4641920 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/glenavon-fc_dungannon-swifts-fc/index/spielbericht/4641924 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/dungannon-swifts-fc_portadown-fc/index/spielbericht/4641912 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/bangor-fc_ballymena-united-fc/index/spielbericht/4641921 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/glentoran-fc_portadown-fc/index/spielbericht/4641925 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/crusaders-fc_carrick-rangers-fc/index/spielbericht/4641923 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/coleraine-fc_linfield-fc/index/spielbericht/4641922 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/carrick-rangers-fc_glentoran-fc/index/spielbericht/4641928 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/linfield-fc_bangor-fc/index/spielbericht/4641931 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/linfield-fc_larne-fc/index/spielbericht/4641938 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/larne-fc_coleraine-fc/index/spielbericht/4641930 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/glenavon-fc_glentoran-fc/index/spielbericht/4641937 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/ballymena-united-fc_glenavon-fc/index/spielbericht/4641927 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/portadown-fc_cliftonville-fc/index/spielbericht/4641932 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/dungannon-swifts-fc_ballymena-united-fc/index/spielbericht/4641936 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/coleraine-fc_glenavon-fc/index/spielbericht/4641941 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/crusaders-fc_linfield-fc/index/spielbericht/4641942 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/bangor-fc_portadown-fc/index/spielbericht/4641933 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/crusaders-fc_dungannon-swifts-fc/index/spielbericht/4641929 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/larne-fc_bangor-fc/index/spielbericht/4641944 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/larne-fc_cliftonville-fc/index/spielbericht/4641926 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/cliftonville-fc_carrick-rangers-fc/index/spielbericht/4641934 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/carrick-rangers-fc_dungannon-swifts-fc/index/spielbericht/4641940 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/ballymena-united-fc_portadown-fc/index/spielbericht/4641939 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/cliftonville-fc_bangor-fc/index/spielbericht/4641953 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/portadown-fc_carrick-rangers-fc/index/spielbericht/4641950 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/glenavon-fc_cliftonville-fc/index/spielbericht/4641948 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/glentoran-fc_cliftonville-fc/index/spielbericht/4641943 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/carrick-rangers-fc_glenavon-fc/index/spielbericht/4641952 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/bangor-fc_coleraine-fc/index/spielbericht/4641945 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/coleraine-fc_crusaders-fc/index/spielbericht/4641935 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/coleraine-fc_portadown-fc/index/spielbericht/4641954 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/crusaders-fc_larne-fc/index/spielbericht/4641946 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/coleraine-fc_ballymena-united-fc/index/spielbericht/4641965 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/dungannon-swifts-fc_glentoran-fc/index/spielbericht/4641947 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/larne-fc_glentoran-fc/index/spielbericht/4641955 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/crusaders-fc_bangor-fc/index/spielbericht/4641958 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/dungannon-swifts-fc_cliftonville-fc/index/spielbericht/4641959 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/glentoran-fc_ballymena-united-fc/index/spielbericht/4641961 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/linfield-fc_ballymena-united-fc/index/spielbericht/4641949 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/glenavon-fc_linfield-fc/index/spielbericht/4641960 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/carrick-rangers-fc_coleraine-fc/index/spielbericht/4641957 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/linfield-fc_dungannon-swifts-fc/index/spielbericht/4641956 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/ballymena-united-fc_crusaders-fc/index/spielbericht/4641951 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/linfield-fc_glentoran-fc/index/spielbericht/4641967 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/linfield-fc_portadown-fc/index/spielbericht/4641980 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/portadown-fc_dungannon-swifts-fc/index/spielbericht/4641968 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/portadown-fc_larne-fc/index/spielbericht/4641962 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/bangor-fc_glenavon-fc/index/spielbericht/4641963 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/carrick-rangers-fc_bangor-fc/index/spielbericht/4641970 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/dungannon-swifts-fc_coleraine-fc/index/spielbericht/4641972 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/ballymena-united-fc_larne-fc/index/spielbericht/4641969 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/larne-fc_carrick-rangers-fc/index/spielbericht/4641966 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/cliftonville-fc_crusaders-fc/index/spielbericht/4641964 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/glentoran-fc_crusaders-fc/index/spielbericht/4641974 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/carrick-rangers-fc_linfield-fc/index/spielbericht/4641981 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/ballymena-united-fc_carrick-rangers-fc/index/spielbericht/4641975 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/larne-fc_dungannon-swifts-fc/index/spielbericht/4641979 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/coleraine-fc_cliftonville-fc/index/spielbericht/4641977 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/crusaders-fc_glenavon-fc/index/spielbericht/4641978 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/glenavon-fc_larne-fc/index/spielbericht/4641984 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/cliftonville-fc_ballymena-united-fc/index/spielbericht/4641982 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/glenavon-fc_portadown-fc/index/spielbericht/4641973 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/dungannon-swifts-fc_bangor-fc/index/spielbericht/4641983 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/bangor-fc_glentoran-fc/index/spielbericht/4641976 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/cliftonville-fc_linfield-fc/index/spielbericht/4641971 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/glentoran-fc_coleraine-fc/index/spielbericht/4641985 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/portadown-fc_crusaders-fc/index/spielbericht/4641986 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/carrick-rangers-fc_larne-fc/index/spielbericht/4641916 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 114, in __call__
+    await final_context_consumer(cast('TCrawlingContext', crawling_context))
+  File "/usr/local/lib/python3.12/site-packages/crawlee/_utils/wait.py", line 37, in wait_for
+    return await asyncio.wait_for(operation(), timeout.total_seconds())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/router.py", line 108, in __call__
+    return await user_defined_handler(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/tfmkt/crawlers/games.py", line 162, in parse_game
+    home_club_position = home_club_box[0].xpath('p/text()').get()
+                         ~~~~~~~~~~~~~^^^
+  File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__
+    o = super().__getitem__(pos)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/bangor-fc_cliftonville-fc/index/spielbericht/4641910 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 114, in __call__
+    await final_context_consumer(cast('TCrawlingContext', crawling_context))
+  File "/usr/local/lib/python3.12/site-packages/crawlee/_utils/wait.py", line 37, in wait_for
+    return await asyncio.wait_for(operation(), timeout.total_seconds())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/router.py", line 108, in __call__
+    return await user_defined_handler(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/tfmkt/crawlers/games.py", line 162, in parse_game
+    home_club_position = home_club_box[0].xpath('p/text()').get()
+                         ~~~~~~~~~~~~~^^^
+  File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__
+    o = super().__getitem__(pos)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/crusaders-fc_larne-fc/index/spielbericht/4641911 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 114, in __call__
+    await final_context_consumer(cast('TCrawlingContext', crawling_context))
+  File "/usr/local/lib/python3.12/site-packages/crawlee/_utils/wait.py", line 37, in wait_for
+    return await asyncio.wait_for(operation(), timeout.total_seconds())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/router.py", line 108, in __call__
+    return await user_defined_handler(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/tfmkt/crawlers/games.py", line 162, in parse_game
+    home_club_position = home_club_box[0].xpath('p/text()').get()
+                         ~~~~~~~~~~~~~^^^
+  File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__
+    o = super().__getitem__(pos)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/linfield-fc_glentoran-fc/index/spielbericht/4641919 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 114, in __call__
+    await final_context_consumer(cast('TCrawlingContext', crawling_context))
+  File "/usr/local/lib/python3.12/site-packages/crawlee/_utils/wait.py", line 37, in wait_for
+    return await asyncio.wait_for(operation(), timeout.total_seconds())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/router.py", line 108, in __call__
+    return await user_defined_handler(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/tfmkt/crawlers/games.py", line 162, in parse_game
+    home_club_position = home_club_box[0].xpath('p/text()').get()
+                         ~~~~~~~~~~~~~^^^
+  File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__
+    o = super().__getitem__(pos)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/glenavon-fc_linfield-fc/index/spielbericht/4641913 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 114, in __call__
+    await final_context_consumer(cast('TCrawlingContext', crawling_context))
+  File "/usr/local/lib/python3.12/site-packages/crawlee/_utils/wait.py", line 37, in wait_for
+    return await asyncio.wait_for(operation(), timeout.total_seconds())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/router.py", line 108, in __call__
+    return await user_defined_handler(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/tfmkt/crawlers/games.py", line 162, in parse_game
+    home_club_position = home_club_box[0].xpath('p/text()').get()
+                         ~~~~~~~~~~~~~^^^
+  File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__
+    o = super().__getitem__(pos)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/ballymena-united-fc_carrick-rangers-fc/index/spielbericht/4641909 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 114, in __call__
+    await final_context_consumer(cast('TCrawlingContext', crawling_context))
+  File "/usr/local/lib/python3.12/site-packages/crawlee/_utils/wait.py", line 37, in wait_for
+    return await asyncio.wait_for(operation(), timeout.total_seconds())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/router.py", line 108, in __call__
+    return await user_defined_handler(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/tfmkt/crawlers/games.py", line 162, in parse_game
+    home_club_position = home_club_box[0].xpath('p/text()').get()
+                         ~~~~~~~~~~~~~^^^
+  File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__
+    o = super().__getitem__(pos)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/portadown-fc_ballymena-united-fc/index/spielbericht/4641908 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 114, in __call__
+    await final_context_consumer(cast('TCrawlingContext', crawling_context))
+  File "/usr/local/lib/python3.12/site-packages/crawlee/_utils/wait.py", line 37, in wait_for
+    return await asyncio.wait_for(operation(), timeout.total_seconds())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/router.py", line 108, in __call__
+    return await user_defined_handler(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/tfmkt/crawlers/games.py", line 162, in parse_game
+    home_club_position = home_club_box[0].xpath('p/text()').get()
+                         ~~~~~~~~~~~~~^^^
+  File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__
+    o = super().__getitem__(pos)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/cliftonville-fc_crusaders-fc/index/spielbericht/4641917 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 114, in __call__
+    await final_context_consumer(cast('TCrawlingContext', crawling_context))
+  File "/usr/local/lib/python3.12/site-packages/crawlee/_utils/wait.py", line 37, in wait_for
+    return await asyncio.wait_for(operation(), timeout.total_seconds())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/router.py", line 108, in __call__
+    return await user_defined_handler(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/tfmkt/crawlers/games.py", line 162, in parse_game
+    home_club_position = home_club_box[0].xpath('p/text()').get()
+                         ~~~~~~~~~~~~~^^^
+  File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__
+    o = super().__getitem__(pos)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/portadown-fc_glenavon-fc/index/spielbericht/4641920 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 114, in __call__
+    await final_context_consumer(cast('TCrawlingContext', crawling_context))
+  File "/usr/local/lib/python3.12/site-packages/crawlee/_utils/wait.py", line 37, in wait_for
+    return await asyncio.wait_for(operation(), timeout.total_seconds())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/router.py", line 108, in __call__
+    return await user_defined_handler(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/tfmkt/crawlers/games.py", line 162, in parse_game
+    home_club_position = home_club_box[0].xpath('p/text()').get()
+                         ~~~~~~~~~~~~~^^^
+  File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__
+    o = super().__getitem__(pos)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/coleraine-fc_linfield-fc/index/spielbericht/4641922 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 114, in __call__
+    await final_context_consumer(cast('TCrawlingContext', crawling_context))
+  File "/usr/local/lib/python3.12/site-packages/crawlee/_utils/wait.py", line 37, in wait_for
+    return await asyncio.wait_for(operation(), timeout.total_seconds())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/router.py", line 108, in __call__
+    return await user_defined_handler(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/tfmkt/crawlers/games.py", line 162, in parse_game
+    home_club_position = home_club_box[0].xpath('p/text()').get()
+                         ~~~~~~~~~~~~~^^^
+  File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__
+    o = super().__getitem__(pos)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/dungannon-swifts-fc_portadown-fc/index/spielbericht/4641912 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 114, in __call__
+    await final_context_consumer(cast('TCrawlingContext', crawling_context))
+  File "/usr/local/lib/python3.12/site-packages/crawlee/_utils/wait.py", line 37, in wait_for
+    return await asyncio.wait_for(operation(), timeout.total_seconds())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/router.py", line 108, in __call__
+    return await user_defined_handler(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/tfmkt/crawlers/games.py", line 162, in parse_game
+    home_club_position = home_club_box[0].xpath('p/text()').get()
+                         ~~~~~~~~~~~~~^^^
+  File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__
+    o = super().__getitem__(pos)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/linfield-fc_bangor-fc/index/spielbericht/4641931 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 114, in __call__
+    await final_context_consumer(cast('TCrawlingContext', crawling_context))
+  File "/usr/local/lib/python3.12/site-packages/crawlee/_utils/wait.py", line 37, in wait_for
+    return await asyncio.wait_for(operation(), timeout.total_seconds())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/router.py", line 108, in __call__
+    return await user_defined_handler(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/tfmkt/crawlers/games.py", line 162, in parse_game
+    home_club_position = home_club_box[0].xpath('p/text()').get()
+                         ~~~~~~~~~~~~~^^^
+  File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__
+    o = super().__getitem__(pos)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/glenavon-fc_dungannon-swifts-fc/index/spielbericht/4641924 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 114, in __call__
+    await final_context_consumer(cast('TCrawlingContext', crawling_context))
+  File "/usr/local/lib/python3.12/site-packages/crawlee/_utils/wait.py", line 37, in wait_for
+    return await asyncio.wait_for(operation(), timeout.total_seconds())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/router.py", line 108, in __call__
+    return await user_defined_handler(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/tfmkt/crawlers/games.py", line 162, in parse_game
+    home_club_position = home_club_box[0].xpath('p/text()').get()
+                         ~~~~~~~~~~~~~^^^
+  File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__
+    o = super().__getitem__(pos)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/larne-fc_coleraine-fc/index/spielbericht/4641930 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 114, in __call__
+    await final_context_consumer(cast('TCrawlingContext', crawling_context))
+  File "/usr/local/lib/python3.12/site-packages/crawlee/_utils/wait.py", line 37, in wait_for
+    return await asyncio.wait_for(operation(), timeout.total_seconds())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/router.py", line 108, in __call__
+    return await user_defined_handler(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/tfmkt/crawlers/games.py", line 162, in parse_game
+    home_club_position = home_club_box[0].xpath('p/text()').get()
+                         ~~~~~~~~~~~~~^^^
+  File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__
+    o = super().__getitem__(pos)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/glentoran-fc_portadown-fc/index/spielbericht/4641925 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 114, in __call__
+    await final_context_consumer(cast('TCrawlingContext', crawling_context))
+  File "/usr/local/lib/python3.12/site-packages/crawlee/_utils/wait.py", line 37, in wait_for
+    return await asyncio.wait_for(operation(), timeout.total_seconds())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/router.py", line 108, in __call__
+    return await user_defined_handler(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/tfmkt/crawlers/games.py", line 162, in parse_game
+    home_club_position = home_club_box[0].xpath('p/text()').get()
+                         ~~~~~~~~~~~~~^^^
+  File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__
+    o = super().__getitem__(pos)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/bangor-fc_ballymena-united-fc/index/spielbericht/4641921 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 114, in __call__
+    await final_context_consumer(cast('TCrawlingContext', crawling_context))
+  File "/usr/local/lib/python3.12/site-packages/crawlee/_utils/wait.py", line 37, in wait_for
+    return await asyncio.wait_for(operation(), timeout.total_seconds())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/router.py", line 108, in __call__
+    return await user_defined_handler(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/tfmkt/crawlers/games.py", line 162, in parse_game
+    home_club_position = home_club_box[0].xpath('p/text()').get()
+                         ~~~~~~~~~~~~~^^^
+  File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__
+    o = super().__getitem__(pos)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/glenavon-fc_glentoran-fc/index/spielbericht/4641937 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 114, in __call__
+    await final_context_consumer(cast('TCrawlingContext', crawling_context))
+  File "/usr/local/lib/python3.12/site-packages/crawlee/_utils/wait.py", line 37, in wait_for
+    return await asyncio.wait_for(operation(), timeout.total_seconds())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/router.py", line 108, in __call__
+    return await user_defined_handler(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/tfmkt/crawlers/games.py", line 162, in parse_game
+    home_club_position = home_club_box[0].xpath('p/text()').get()
+                         ~~~~~~~~~~~~~^^^
+  File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__
+    o = super().__getitem__(pos)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/crusaders-fc_carrick-rangers-fc/index/spielbericht/4641923 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 114, in __call__
+    await final_context_consumer(cast('TCrawlingContext', crawling_context))
+  File "/usr/local/lib/python3.12/site-packages/crawlee/_utils/wait.py", line 37, in wait_for
+    return await asyncio.wait_for(operation(), timeout.total_seconds())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/router.py", line 108, in __call__
+    return await user_defined_handler(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/tfmkt/crawlers/games.py", line 162, in parse_game
+    home_club_position = home_club_box[0].xpath('p/text()').get()
+                         ~~~~~~~~~~~~~^^^
+  File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__
+    o = super().__getitem__(pos)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/carrick-rangers-fc_glentoran-fc/index/spielbericht/4641928 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 114, in __call__
+    await final_context_consumer(cast('TCrawlingContext', crawling_context))
+  File "/usr/local/lib/python3.12/site-packages/crawlee/_utils/wait.py", line 37, in wait_for
+    return await asyncio.wait_for(operation(), timeout.total_seconds())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/router.py", line 108, in __call__
+    return await user_defined_handler(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/tfmkt/crawlers/games.py", line 162, in parse_game
+    home_club_position = home_club_box[0].xpath('p/text()').get()
+                         ~~~~~~~~~~~~~^^^
+  File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__
+    o = super().__getitem__(pos)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/linfield-fc_larne-fc/index/spielbericht/4641938 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 114, in __call__
+    await final_context_consumer(cast('TCrawlingContext', crawling_context))
+  File "/usr/local/lib/python3.12/site-packages/crawlee/_utils/wait.py", line 37, in wait_for
+    return await asyncio.wait_for(operation(), timeout.total_seconds())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/router.py", line 108, in __call__
+    return await user_defined_handler(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/tfmkt/crawlers/games.py", line 162, in parse_game
+    home_club_position = home_club_box[0].xpath('p/text()').get()
+                         ~~~~~~~~~~~~~^^^
+  File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__
+    o = super().__getitem__(pos)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/crusaders-fc_linfield-fc/index/spielbericht/4641942 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 114, in __call__
+    await final_context_consumer(cast('TCrawlingContext', crawling_context))
+  File "/usr/local/lib/python3.12/site-packages/crawlee/_utils/wait.py", line 37, in wait_for
+    return await asyncio.wait_for(operation(), timeout.total_seconds())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/router.py", line 108, in __call__
+    return await user_defined_handler(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/tfmkt/crawlers/games.py", line 162, in parse_game
+    home_club_position = home_club_box[0].xpath('p/text()').get()
+                         ~~~~~~~~~~~~~^^^
+  File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__
+    o = super().__getitem__(pos)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/crusaders-fc_dungannon-swifts-fc/index/spielbericht/4641929 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 114, in __call__
+    await final_context_consumer(cast('TCrawlingContext', crawling_context))
+  File "/usr/local/lib/python3.12/site-packages/crawlee/_utils/wait.py", line 37, in wait_for
+    return await asyncio.wait_for(operation(), timeout.total_seconds())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/router.py", line 108, in __call__
+    return await user_defined_handler(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/tfmkt/crawlers/games.py", line 162, in parse_game
+    home_club_position = home_club_box[0].xpath('p/text()').get()
+                         ~~~~~~~~~~~~~^^^
+  File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__
+    o = super().__getitem__(pos)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/larne-fc_cliftonville-fc/index/spielbericht/4641926 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 114, in __call__
+    await final_context_consumer(cast('TCrawlingContext', crawling_context))
+  File "/usr/local/lib/python3.12/site-packages/crawlee/_utils/wait.py", line 37, in wait_for
+    return await asyncio.wait_for(operation(), timeout.total_seconds())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/router.py", line 108, in __call__
+    return await user_defined_handler(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/tfmkt/crawlers/games.py", line 162, in parse_game
+    home_club_position = home_club_box[0].xpath('p/text()').get()
+                         ~~~~~~~~~~~~~^^^
+  File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__
+    o = super().__getitem__(pos)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/carrick-rangers-fc_dungannon-swifts-fc/index/spielbericht/4641940 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 114, in __call__
+    await final_context_consumer(cast('TCrawlingContext', crawling_context))
+  File "/usr/local/lib/python3.12/site-packages/crawlee/_utils/wait.py", line 37, in wait_for
+    return await asyncio.wait_for(operation(), timeout.total_seconds())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/router.py", line 108, in __call__
+    return await user_defined_handler(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/tfmkt/crawlers/games.py", line 162, in parse_game
+    home_club_position = home_club_box[0].xpath('p/text()').get()
+                         ~~~~~~~~~~~~~^^^
+  File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__
+    o = super().__getitem__(pos)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/larne-fc_bangor-fc/index/spielbericht/4641944 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 114, in __call__
+    await final_context_consumer(cast('TCrawlingContext', crawling_context))
+  File "/usr/local/lib/python3.12/site-packages/crawlee/_utils/wait.py", line 37, in wait_for
+    return await asyncio.wait_for(operation(), timeout.total_seconds())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/router.py", line 108, in __call__
+    return await user_defined_handler(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/tfmkt/crawlers/games.py", line 162, in parse_game
+    home_club_position = home_club_box[0].xpath('p/text()').get()
+                         ~~~~~~~~~~~~~^^^
+  File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__
+    o = super().__getitem__(pos)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/cliftonville-fc_carrick-rangers-fc/index/spielbericht/4641934 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 114, in __call__
+    await final_context_consumer(cast('TCrawlingContext', crawling_context))
+  File "/usr/local/lib/python3.12/site-packages/crawlee/_utils/wait.py", line 37, in wait_for
+    return await asyncio.wait_for(operation(), timeout.total_seconds())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/router.py", line 108, in __call__
+    return await user_defined_handler(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/tfmkt/crawlers/games.py", line 162, in parse_game
+    home_club_position = home_club_box[0].xpath('p/text()').get()
+                         ~~~~~~~~~~~~~^^^
+  File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__
+    o = super().__getitem__(pos)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/ballymena-united-fc_glenavon-fc/index/spielbericht/4641927 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 114, in __call__
+    await final_context_consumer(cast('TCrawlingContext', crawling_context))
+  File "/usr/local/lib/python3.12/site-packages/crawlee/_utils/wait.py", line 37, in wait_for
+    return await asyncio.wait_for(operation(), timeout.total_seconds())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/router.py", line 108, in __call__
+    return await user_defined_handler(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/tfmkt/crawlers/games.py", line 162, in parse_game
+    home_club_position = home_club_box[0].xpath('p/text()').get()
+                         ~~~~~~~~~~~~~^^^
+  File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__
+    o = super().__getitem__(pos)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/portadown-fc_cliftonville-fc/index/spielbericht/4641932 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 114, in __call__
+    await final_context_consumer(cast('TCrawlingContext', crawling_context))
+  File "/usr/local/lib/python3.12/site-packages/crawlee/_utils/wait.py", line 37, in wait_for
+    return await asyncio.wait_for(operation(), timeout.total_seconds())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/router.py", line 108, in __call__
+    return await user_defined_handler(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/tfmkt/crawlers/games.py", line 162, in parse_game
+    home_club_position = home_club_box[0].xpath('p/text()').get()
+                         ~~~~~~~~~~~~~^^^
+  File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__
+    o = super().__getitem__(pos)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/coleraine-fc_glenavon-fc/index/spielbericht/4641941 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 114, in __call__
+    await final_context_consumer(cast('TCrawlingContext', crawling_context))
+  File "/usr/local/lib/python3.12/site-packages/crawlee/_utils/wait.py", line 37, in wait_for
+    return await asyncio.wait_for(operation(), timeout.total_seconds())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/router.py", line 108, in __call__
+    return await user_defined_handler(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/tfmkt/crawlers/games.py", line 162, in parse_game
+    home_club_position = home_club_box[0].xpath('p/text()').get()
+                         ~~~~~~~~~~~~~^^^
+  File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__
+    o = super().__getitem__(pos)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/bangor-fc_portadown-fc/index/spielbericht/4641933 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 114, in __call__
+    await final_context_consumer(cast('TCrawlingContext', crawling_context))
+  File "/usr/local/lib/python3.12/site-packages/crawlee/_utils/wait.py", line 37, in wait_for
+    return await asyncio.wait_for(operation(), timeout.total_seconds())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/router.py", line 108, in __call__
+    return await user_defined_handler(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/tfmkt/crawlers/games.py", line 162, in parse_game
+    home_club_position = home_club_box[0].xpath('p/text()').get()
+                         ~~~~~~~~~~~~~^^^
+  File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__
+    o = super().__getitem__(pos)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/dungannon-swifts-fc_ballymena-united-fc/index/spielbericht/4641936 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 114, in __call__
+    await final_context_consumer(cast('TCrawlingContext', crawling_context))
+  File "/usr/local/lib/python3.12/site-packages/crawlee/_utils/wait.py", line 37, in wait_for
+    return await asyncio.wait_for(operation(), timeout.total_seconds())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/router.py", line 108, in __call__
+    return await user_defined_handler(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/tfmkt/crawlers/games.py", line 162, in parse_game
+    home_club_position = home_club_box[0].xpath('p/text()').get()
+                         ~~~~~~~~~~~~~^^^
+  File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__
+    o = super().__getitem__(pos)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/cliftonville-fc_bangor-fc/index/spielbericht/4641953 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 114, in __call__
+    await final_context_consumer(cast('TCrawlingContext', crawling_context))
+  File "/usr/local/lib/python3.12/site-packages/crawlee/_utils/wait.py", line 37, in wait_for
+    return await asyncio.wait_for(operation(), timeout.total_seconds())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/router.py", line 108, in __call__
+    return await user_defined_handler(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/tfmkt/crawlers/games.py", line 162, in parse_game
+    home_club_position = home_club_box[0].xpath('p/text()').get()
+                         ~~~~~~~~~~~~~^^^
+  File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__
+    o = super().__getitem__(pos)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/portadown-fc_carrick-rangers-fc/index/spielbericht/4641950 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 114, in __call__
+    await final_context_consumer(cast('TCrawlingContext', crawling_context))
+  File "/usr/local/lib/python3.12/site-packages/crawlee/_utils/wait.py", line 37, in wait_for
+    return await asyncio.wait_for(operation(), timeout.total_seconds())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/router.py", line 108, in __call__
+    return await user_defined_handler(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/tfmkt/crawlers/games.py", line 162, in parse_game
+    home_club_position = home_club_box[0].xpath('p/text()').get()
+                         ~~~~~~~~~~~~~^^^
+  File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__
+    o = super().__getitem__(pos)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/glenavon-fc_cliftonville-fc/index/spielbericht/4641948 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 114, in __call__
+    await final_context_consumer(cast('TCrawlingContext', crawling_context))
+  File "/usr/local/lib/python3.12/site-packages/crawlee/_utils/wait.py", line 37, in wait_for
+    return await asyncio.wait_for(operation(), timeout.total_seconds())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/router.py", line 108, in __call__
+    return await user_defined_handler(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/tfmkt/crawlers/games.py", line 162, in parse_game
+    home_club_position = home_club_box[0].xpath('p/text()').get()
+                         ~~~~~~~~~~~~~^^^
+  File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__
+    o = super().__getitem__(pos)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/coleraine-fc_portadown-fc/index/spielbericht/4641954 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 114, in __call__
+    await final_context_consumer(cast('TCrawlingContext', crawling_context))
+  File "/usr/local/lib/python3.12/site-packages/crawlee/_utils/wait.py", line 37, in wait_for
+    return await asyncio.wait_for(operation(), timeout.total_seconds())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/router.py", line 108, in __call__
+    return await user_defined_handler(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/tfmkt/crawlers/games.py", line 162, in parse_game
+    home_club_position = home_club_box[0].xpath('p/text()').get()
+                         ~~~~~~~~~~~~~^^^
+  File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__
+    o = super().__getitem__(pos)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/coleraine-fc_ballymena-united-fc/index/spielbericht/4641965 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 114, in __call__
+    await final_context_consumer(cast('TCrawlingContext', crawling_context))
+  File "/usr/local/lib/python3.12/site-packages/crawlee/_utils/wait.py", line 37, in wait_for
+    return await asyncio.wait_for(operation(), timeout.total_seconds())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/router.py", line 108, in __call__
+    return await user_defined_handler(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/tfmkt/crawlers/games.py", line 162, in parse_game
+    home_club_position = home_club_box[0].xpath('p/text()').get()
+                         ~~~~~~~~~~~~~^^^
+  File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__
+    o = super().__getitem__(pos)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/coleraine-fc_crusaders-fc/index/spielbericht/4641935 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 114, in __call__
+    await final_context_consumer(cast('TCrawlingContext', crawling_context))
+  File "/usr/local/lib/python3.12/site-packages/crawlee/_utils/wait.py", line 37, in wait_for
+    return await asyncio.wait_for(operation(), timeout.total_seconds())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/router.py", line 108, in __call__
+    return await user_defined_handler(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/tfmkt/crawlers/games.py", line 162, in parse_game
+    home_club_position = home_club_box[0].xpath('p/text()').get()
+                         ~~~~~~~~~~~~~^^^
+  File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__
+    o = super().__getitem__(pos)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/bangor-fc_coleraine-fc/index/spielbericht/4641945 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 114, in __call__
+    await final_context_consumer(cast('TCrawlingContext', crawling_context))
+  File "/usr/local/lib/python3.12/site-packages/crawlee/_utils/wait.py", line 37, in wait_for
+    return await asyncio.wait_for(operation(), timeout.total_seconds())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/router.py", line 108, in __call__
+    return await user_defined_handler(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/tfmkt/crawlers/games.py", line 162, in parse_game
+    home_club_position = home_club_box[0].xpath('p/text()').get()
+                         ~~~~~~~~~~~~~^^^
+  File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__
+    o = super().__getitem__(pos)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/carrick-rangers-fc_glenavon-fc/index/spielbericht/4641952 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 114, in __call__
+    await final_context_consumer(cast('TCrawlingContext', crawling_context))
+  File "/usr/local/lib/python3.12/site-packages/crawlee/_utils/wait.py", line 37, in wait_for
+    return await asyncio.wait_for(operation(), timeout.total_seconds())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/router.py", line 108, in __call__
+    return await user_defined_handler(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/tfmkt/crawlers/games.py", line 162, in parse_game
+    home_club_position = home_club_box[0].xpath('p/text()').get()
+                         ~~~~~~~~~~~~~^^^
+  File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__
+    o = super().__getitem__(pos)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/glentoran-fc_cliftonville-fc/index/spielbericht/4641943 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 114, in __call__
+    await final_context_consumer(cast('TCrawlingContext', crawling_context))
+  File "/usr/local/lib/python3.12/site-packages/crawlee/_utils/wait.py", line 37, in wait_for
+    return await asyncio.wait_for(operation(), timeout.total_seconds())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/router.py", line 108, in __call__
+    return await user_defined_handler(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/tfmkt/crawlers/games.py", line 162, in parse_game
+    home_club_position = home_club_box[0].xpath('p/text()').get()
+                         ~~~~~~~~~~~~~^^^
+  File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__
+    o = super().__getitem__(pos)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/ballymena-united-fc_portadown-fc/index/spielbericht/4641939 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 114, in __call__
+    await final_context_consumer(cast('TCrawlingContext', crawling_context))
+  File "/usr/local/lib/python3.12/site-packages/crawlee/_utils/wait.py", line 37, in wait_for
+    return await asyncio.wait_for(operation(), timeout.total_seconds())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/router.py", line 108, in __call__
+    return await user_defined_handler(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/tfmkt/crawlers/games.py", line 162, in parse_game
+    home_club_position = home_club_box[0].xpath('p/text()').get()
+                         ~~~~~~~~~~~~~^^^
+  File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__
+    o = super().__getitem__(pos)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/crusaders-fc_larne-fc/index/spielbericht/4641946 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 114, in __call__
+    await final_context_consumer(cast('TCrawlingContext', crawling_context))
+  File "/usr/local/lib/python3.12/site-packages/crawlee/_utils/wait.py", line 37, in wait_for
+    return await asyncio.wait_for(operation(), timeout.total_seconds())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/router.py", line 108, in __call__
+    return await user_defined_handler(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/tfmkt/crawlers/games.py", line 162, in parse_game
+    home_club_position = home_club_box[0].xpath('p/text()').get()
+                         ~~~~~~~~~~~~~^^^
+  File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__
+    o = super().__getitem__(pos)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/carrick-rangers-fc_coleraine-fc/index/spielbericht/4641957 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 114, in __call__
+    await final_context_consumer(cast('TCrawlingContext', crawling_context))
+  File "/usr/local/lib/python3.12/site-packages/crawlee/_utils/wait.py", line 37, in wait_for
+    return await asyncio.wait_for(operation(), timeout.total_seconds())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/router.py", line 108, in __call__
+    return await user_defined_handler(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/tfmkt/crawlers/games.py", line 162, in parse_game
+    home_club_position = home_club_box[0].xpath('p/text()').get()
+                         ~~~~~~~~~~~~~^^^
+  File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__
+    o = super().__getitem__(pos)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/dungannon-swifts-fc_glentoran-fc/index/spielbericht/4641947 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 114, in __call__
+    await final_context_consumer(cast('TCrawlingContext', crawling_context))
+  File "/usr/local/lib/python3.12/site-packages/crawlee/_utils/wait.py", line 37, in wait_for
+    return await asyncio.wait_for(operation(), timeout.total_seconds())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/router.py", line 108, in __call__
+    return await user_defined_handler(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/tfmkt/crawlers/games.py", line 162, in parse_game
+    home_club_position = home_club_box[0].xpath('p/text()').get()
+                         ~~~~~~~~~~~~~^^^
+  File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__
+    o = super().__getitem__(pos)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/glenavon-fc_linfield-fc/index/spielbericht/4641960 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 114, in __call__
+    await final_context_consumer(cast('TCrawlingContext', crawling_context))
+  File "/usr/local/lib/python3.12/site-packages/crawlee/_utils/wait.py", line 37, in wait_for
+    return await asyncio.wait_for(operation(), timeout.total_seconds())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/router.py", line 108, in __call__
+    return await user_defined_handler(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/tfmkt/crawlers/games.py", line 162, in parse_game
+    home_club_position = home_club_box[0].xpath('p/text()').get()
+                         ~~~~~~~~~~~~~^^^
+  File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__
+    o = super().__getitem__(pos)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/glentoran-fc_ballymena-united-fc/index/spielbericht/4641961 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 114, in __call__
+    await final_context_consumer(cast('TCrawlingContext', crawling_context))
+  File "/usr/local/lib/python3.12/site-packages/crawlee/_utils/wait.py", line 37, in wait_for
+    return await asyncio.wait_for(operation(), timeout.total_seconds())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/router.py", line 108, in __call__
+    return await user_defined_handler(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/tfmkt/crawlers/games.py", line 162, in parse_game
+    home_club_position = home_club_box[0].xpath('p/text()').get()
+                         ~~~~~~~~~~~~~^^^
+  File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__
+    o = super().__getitem__(pos)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/linfield-fc_ballymena-united-fc/index/spielbericht/4641949 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 114, in __call__
+    await final_context_consumer(cast('TCrawlingContext', crawling_context))
+  File "/usr/local/lib/python3.12/site-packages/crawlee/_utils/wait.py", line 37, in wait_for
+    return await asyncio.wait_for(operation(), timeout.total_seconds())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/router.py", line 108, in __call__
+    return await user_defined_handler(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/tfmkt/crawlers/games.py", line 162, in parse_game
+    home_club_position = home_club_box[0].xpath('p/text()').get()
+                         ~~~~~~~~~~~~~^^^
+  File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__
+    o = super().__getitem__(pos)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/crusaders-fc_bangor-fc/index/spielbericht/4641958 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 114, in __call__
+    await final_context_consumer(cast('TCrawlingContext', crawling_context))
+  File "/usr/local/lib/python3.12/site-packages/crawlee/_utils/wait.py", line 37, in wait_for
+    return await asyncio.wait_for(operation(), timeout.total_seconds())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/router.py", line 108, in __call__
+    return await user_defined_handler(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/tfmkt/crawlers/games.py", line 162, in parse_game
+    home_club_position = home_club_box[0].xpath('p/text()').get()
+                         ~~~~~~~~~~~~~^^^
+  File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__
+    o = super().__getitem__(pos)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/dungannon-swifts-fc_cliftonville-fc/index/spielbericht/4641959 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 114, in __call__
+    await final_context_consumer(cast('TCrawlingContext', crawling_context))
+  File "/usr/local/lib/python3.12/site-packages/crawlee/_utils/wait.py", line 37, in wait_for
+    return await asyncio.wait_for(operation(), timeout.total_seconds())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/router.py", line 108, in __call__
+    return await user_defined_handler(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/tfmkt/crawlers/games.py", line 162, in parse_game
+    home_club_position = home_club_box[0].xpath('p/text()').get()
+                         ~~~~~~~~~~~~~^^^
+  File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__
+    o = super().__getitem__(pos)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/linfield-fc_dungannon-swifts-fc/index/spielbericht/4641956 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 114, in __call__
+    await final_context_consumer(cast('TCrawlingContext', crawling_context))
+  File "/usr/local/lib/python3.12/site-packages/crawlee/_utils/wait.py", line 37, in wait_for
+    return await asyncio.wait_for(operation(), timeout.total_seconds())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/router.py", line 108, in __call__
+    return await user_defined_handler(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/tfmkt/crawlers/games.py", line 162, in parse_game
+    home_club_position = home_club_box[0].xpath('p/text()').get()
+                         ~~~~~~~~~~~~~^^^
+  File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__
+    o = super().__getitem__(pos)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/larne-fc_glentoran-fc/index/spielbericht/4641955 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 114, in __call__
+    await final_context_consumer(cast('TCrawlingContext', crawling_context))
+  File "/usr/local/lib/python3.12/site-packages/crawlee/_utils/wait.py", line 37, in wait_for
+    return await asyncio.wait_for(operation(), timeout.total_seconds())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/router.py", line 108, in __call__
+    return await user_defined_handler(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/tfmkt/crawlers/games.py", line 162, in parse_game
+    home_club_position = home_club_box[0].xpath('p/text()').get()
+                         ~~~~~~~~~~~~~^^^
+  File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__
+    o = super().__getitem__(pos)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/linfield-fc_glentoran-fc/index/spielbericht/4641967 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 114, in __call__
+    await final_context_consumer(cast('TCrawlingContext', crawling_context))
+  File "/usr/local/lib/python3.12/site-packages/crawlee/_utils/wait.py", line 37, in wait_for
+    return await asyncio.wait_for(operation(), timeout.total_seconds())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/router.py", line 108, in __call__
+    return await user_defined_handler(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/tfmkt/crawlers/games.py", line 162, in parse_game
+    home_club_position = home_club_box[0].xpath('p/text()').get()
+                         ~~~~~~~~~~~~~^^^
+  File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__
+    o = super().__getitem__(pos)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/ballymena-united-fc_crusaders-fc/index/spielbericht/4641951 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 114, in __call__
+    await final_context_consumer(cast('TCrawlingContext', crawling_context))
+  File "/usr/local/lib/python3.12/site-packages/crawlee/_utils/wait.py", line 37, in wait_for
+    return await asyncio.wait_for(operation(), timeout.total_seconds())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/router.py", line 108, in __call__
+    return await user_defined_handler(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/tfmkt/crawlers/games.py", line 162, in parse_game
+    home_club_position = home_club_box[0].xpath('p/text()').get()
+                         ~~~~~~~~~~~~~^^^
+  File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__
+    o = super().__getitem__(pos)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/ballymena-united-fc_larne-fc/index/spielbericht/4641969 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 114, in __call__
+    await final_context_consumer(cast('TCrawlingContext', crawling_context))
+  File "/usr/local/lib/python3.12/site-packages/crawlee/_utils/wait.py", line 37, in wait_for
+    return await asyncio.wait_for(operation(), timeout.total_seconds())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/router.py", line 108, in __call__
+    return await user_defined_handler(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/tfmkt/crawlers/games.py", line 162, in parse_game
+    home_club_position = home_club_box[0].xpath('p/text()').get()
+                         ~~~~~~~~~~~~~^^^
+  File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__
+    o = super().__getitem__(pos)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/bangor-fc_glenavon-fc/index/spielbericht/4641963 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 114, in __call__
+    await final_context_consumer(cast('TCrawlingContext', crawling_context))
+  File "/usr/local/lib/python3.12/site-packages/crawlee/_utils/wait.py", line 37, in wait_for
+    return await asyncio.wait_for(operation(), timeout.total_seconds())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/router.py", line 108, in __call__
+    return await user_defined_handler(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/tfmkt/crawlers/games.py", line 162, in parse_game
+    home_club_position = home_club_box[0].xpath('p/text()').get()
+                         ~~~~~~~~~~~~~^^^
+  File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__
+    o = super().__getitem__(pos)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/dungannon-swifts-fc_coleraine-fc/index/spielbericht/4641972 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 114, in __call__
+    await final_context_consumer(cast('TCrawlingContext', crawling_context))
+  File "/usr/local/lib/python3.12/site-packages/crawlee/_utils/wait.py", line 37, in wait_for
+    return await asyncio.wait_for(operation(), timeout.total_seconds())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/router.py", line 108, in __call__
+    return await user_defined_handler(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/tfmkt/crawlers/games.py", line 162, in parse_game
+    home_club_position = home_club_box[0].xpath('p/text()').get()
+                         ~~~~~~~~~~~~~^^^
+  File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__
+    o = super().__getitem__(pos)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/larne-fc_carrick-rangers-fc/index/spielbericht/4641966 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 114, in __call__
+    await final_context_consumer(cast('TCrawlingContext', crawling_context))
+  File "/usr/local/lib/python3.12/site-packages/crawlee/_utils/wait.py", line 37, in wait_for
+    return await asyncio.wait_for(operation(), timeout.total_seconds())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/router.py", line 108, in __call__
+    return await user_defined_handler(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/tfmkt/crawlers/games.py", line 162, in parse_game
+    home_club_position = home_club_box[0].xpath('p/text()').get()
+                         ~~~~~~~~~~~~~^^^
+  File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__
+    o = super().__getitem__(pos)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/carrick-rangers-fc_linfield-fc/index/spielbericht/4641981 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 114, in __call__
+    await final_context_consumer(cast('TCrawlingContext', crawling_context))
+  File "/usr/local/lib/python3.12/site-packages/crawlee/_utils/wait.py", line 37, in wait_for
+    return await asyncio.wait_for(operation(), timeout.total_seconds())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/router.py", line 108, in __call__
+    return await user_defined_handler(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/tfmkt/crawlers/games.py", line 162, in parse_game
+    home_club_position = home_club_box[0].xpath('p/text()').get()
+                         ~~~~~~~~~~~~~^^^
+  File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__
+    o = super().__getitem__(pos)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/glentoran-fc_crusaders-fc/index/spielbericht/4641974 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 114, in __call__
+    await final_context_consumer(cast('TCrawlingContext', crawling_context))
+  File "/usr/local/lib/python3.12/site-packages/crawlee/_utils/wait.py", line 37, in wait_for
+    return await asyncio.wait_for(operation(), timeout.total_seconds())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/router.py", line 108, in __call__
+    return await user_defined_handler(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/tfmkt/crawlers/games.py", line 162, in parse_game
+    home_club_position = home_club_box[0].xpath('p/text()').get()
+                         ~~~~~~~~~~~~~^^^
+  File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__
+    o = super().__getitem__(pos)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/cliftonville-fc_crusaders-fc/index/spielbericht/4641964 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 114, in __call__
+    await final_context_consumer(cast('TCrawlingContext', crawling_context))
+  File "/usr/local/lib/python3.12/site-packages/crawlee/_utils/wait.py", line 37, in wait_for
+    return await asyncio.wait_for(operation(), timeout.total_seconds())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/router.py", line 108, in __call__
+    return await user_defined_handler(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/tfmkt/crawlers/games.py", line 162, in parse_game
+    home_club_position = home_club_box[0].xpath('p/text()').get()
+                         ~~~~~~~~~~~~~^^^
+  File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__
+    o = super().__getitem__(pos)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/portadown-fc_larne-fc/index/spielbericht/4641962 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 114, in __call__
+    await final_context_consumer(cast('TCrawlingContext', crawling_context))
+  File "/usr/local/lib/python3.12/site-packages/crawlee/_utils/wait.py", line 37, in wait_for
+    return await asyncio.wait_for(operation(), timeout.total_seconds())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/router.py", line 108, in __call__
+    return await user_defined_handler(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/tfmkt/crawlers/games.py", line 162, in parse_game
+    home_club_position = home_club_box[0].xpath('p/text()').get()
+                         ~~~~~~~~~~~~~^^^
+  File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__
+    o = super().__getitem__(pos)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/linfield-fc_portadown-fc/index/spielbericht/4641980 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 114, in __call__
+    await final_context_consumer(cast('TCrawlingContext', crawling_context))
+  File "/usr/local/lib/python3.12/site-packages/crawlee/_utils/wait.py", line 37, in wait_for
+    return await asyncio.wait_for(operation(), timeout.total_seconds())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/router.py", line 108, in __call__
+    return await user_defined_handler(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/tfmkt/crawlers/games.py", line 162, in parse_game
+    home_club_position = home_club_box[0].xpath('p/text()').get()
+                         ~~~~~~~~~~~~~^^^
+  File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__
+    o = super().__getitem__(pos)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/carrick-rangers-fc_bangor-fc/index/spielbericht/4641970 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 114, in __call__
+    await final_context_consumer(cast('TCrawlingContext', crawling_context))
+  File "/usr/local/lib/python3.12/site-packages/crawlee/_utils/wait.py", line 37, in wait_for
+    return await asyncio.wait_for(operation(), timeout.total_seconds())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/router.py", line 108, in __call__
+    return await user_defined_handler(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/tfmkt/crawlers/games.py", line 162, in parse_game
+    home_club_position = home_club_box[0].xpath('p/text()').get()
+                         ~~~~~~~~~~~~~^^^
+  File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__
+    o = super().__getitem__(pos)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/portadown-fc_dungannon-swifts-fc/index/spielbericht/4641968 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 114, in __call__
+    await final_context_consumer(cast('TCrawlingContext', crawling_context))
+  File "/usr/local/lib/python3.12/site-packages/crawlee/_utils/wait.py", line 37, in wait_for
+    return await asyncio.wait_for(operation(), timeout.total_seconds())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/router.py", line 108, in __call__
+    return await user_defined_handler(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/tfmkt/crawlers/games.py", line 162, in parse_game
+    home_club_position = home_club_box[0].xpath('p/text()').get()
+                         ~~~~~~~~~~~~~^^^
+  File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__
+    o = super().__getitem__(pos)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/larne-fc_dungannon-swifts-fc/index/spielbericht/4641979 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 114, in __call__
+    await final_context_consumer(cast('TCrawlingContext', crawling_context))
+  File "/usr/local/lib/python3.12/site-packages/crawlee/_utils/wait.py", line 37, in wait_for
+    return await asyncio.wait_for(operation(), timeout.total_seconds())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/router.py", line 108, in __call__
+    return await user_defined_handler(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/tfmkt/crawlers/games.py", line 162, in parse_game
+    home_club_position = home_club_box[0].xpath('p/text()').get()
+                         ~~~~~~~~~~~~~^^^
+  File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__
+    o = super().__getitem__(pos)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/cliftonville-fc_ballymena-united-fc/index/spielbericht/4641982 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 114, in __call__
+    await final_context_consumer(cast('TCrawlingContext', crawling_context))
+  File "/usr/local/lib/python3.12/site-packages/crawlee/_utils/wait.py", line 37, in wait_for
+    return await asyncio.wait_for(operation(), timeout.total_seconds())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/router.py", line 108, in __call__
+    return await user_defined_handler(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/tfmkt/crawlers/games.py", line 162, in parse_game
+    home_club_position = home_club_box[0].xpath('p/text()').get()
+                         ~~~~~~~~~~~~~^^^
+  File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__
+    o = super().__getitem__(pos)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/bangor-fc_glentoran-fc/index/spielbericht/4641976 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 114, in __call__
+    await final_context_consumer(cast('TCrawlingContext', crawling_context))
+  File "/usr/local/lib/python3.12/site-packages/crawlee/_utils/wait.py", line 37, in wait_for
+    return await asyncio.wait_for(operation(), timeout.total_seconds())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/router.py", line 108, in __call__
+    return await user_defined_handler(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/tfmkt/crawlers/games.py", line 162, in parse_game
+    home_club_position = home_club_box[0].xpath('p/text()').get()
+                         ~~~~~~~~~~~~~^^^
+  File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__
+    o = super().__getitem__(pos)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/glenavon-fc_larne-fc/index/spielbericht/4641984 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 114, in __call__
+    await final_context_consumer(cast('TCrawlingContext', crawling_context))
+  File "/usr/local/lib/python3.12/site-packages/crawlee/_utils/wait.py", line 37, in wait_for
+    return await asyncio.wait_for(operation(), timeout.total_seconds())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/router.py", line 108, in __call__
+    return await user_defined_handler(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/tfmkt/crawlers/games.py", line 162, in parse_game
+    home_club_position = home_club_box[0].xpath('p/text()').get()
+                         ~~~~~~~~~~~~~^^^
+  File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__
+    o = super().__getitem__(pos)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/dungannon-swifts-fc_bangor-fc/index/spielbericht/4641983 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 114, in __call__
+    await final_context_consumer(cast('TCrawlingContext', crawling_context))
+  File "/usr/local/lib/python3.12/site-packages/crawlee/_utils/wait.py", line 37, in wait_for
+    return await asyncio.wait_for(operation(), timeout.total_seconds())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/router.py", line 108, in __call__
+    return await user_defined_handler(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/tfmkt/crawlers/games.py", line 162, in parse_game
+    home_club_position = home_club_box[0].xpath('p/text()').get()
+                         ~~~~~~~~~~~~~^^^
+  File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__
+    o = super().__getitem__(pos)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/crusaders-fc_glenavon-fc/index/spielbericht/4641978 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 114, in __call__
+    await final_context_consumer(cast('TCrawlingContext', crawling_context))
+  File "/usr/local/lib/python3.12/site-packages/crawlee/_utils/wait.py", line 37, in wait_for
+    return await asyncio.wait_for(operation(), timeout.total_seconds())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/router.py", line 108, in __call__
+    return await user_defined_handler(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/tfmkt/crawlers/games.py", line 162, in parse_game
+    home_club_position = home_club_box[0].xpath('p/text()').get()
+                         ~~~~~~~~~~~~~^^^
+  File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__
+    o = super().__getitem__(pos)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/glenavon-fc_portadown-fc/index/spielbericht/4641973 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 114, in __call__
+    await final_context_consumer(cast('TCrawlingContext', crawling_context))
+  File "/usr/local/lib/python3.12/site-packages/crawlee/_utils/wait.py", line 37, in wait_for
+    return await asyncio.wait_for(operation(), timeout.total_seconds())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/router.py", line 108, in __call__
+    return await user_defined_handler(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/tfmkt/crawlers/games.py", line 162, in parse_game
+    home_club_position = home_club_box[0].xpath('p/text()').get()
+                         ~~~~~~~~~~~~~^^^
+  File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__
+    o = super().__getitem__(pos)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/cliftonville-fc_linfield-fc/index/spielbericht/4641971 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 114, in __call__
+    await final_context_consumer(cast('TCrawlingContext', crawling_context))
+  File "/usr/local/lib/python3.12/site-packages/crawlee/_utils/wait.py", line 37, in wait_for
+    return await asyncio.wait_for(operation(), timeout.total_seconds())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/router.py", line 108, in __call__
+    return await user_defined_handler(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/tfmkt/crawlers/games.py", line 162, in parse_game
+    home_club_position = home_club_box[0].xpath('p/text()').get()
+                         ~~~~~~~~~~~~~^^^
+  File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__
+    o = super().__getitem__(pos)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/glentoran-fc_coleraine-fc/index/spielbericht/4641985 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 114, in __call__
+    await final_context_consumer(cast('TCrawlingContext', crawling_context))
+  File "/usr/local/lib/python3.12/site-packages/crawlee/_utils/wait.py", line 37, in wait_for
+    return await asyncio.wait_for(operation(), timeout.total_seconds())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/router.py", line 108, in __call__
+    return await user_defined_handler(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/tfmkt/crawlers/games.py", line 162, in parse_game
+    home_club_position = home_club_box[0].xpath('p/text()').get()
+                         ~~~~~~~~~~~~~^^^
+  File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__
+    o = super().__getitem__(pos)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/ballymena-united-fc_carrick-rangers-fc/index/spielbericht/4641975 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 114, in __call__
+    await final_context_consumer(cast('TCrawlingContext', crawling_context))
+  File "/usr/local/lib/python3.12/site-packages/crawlee/_utils/wait.py", line 37, in wait_for
+    return await asyncio.wait_for(operation(), timeout.total_seconds())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/router.py", line 108, in __call__
+    return await user_defined_handler(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/tfmkt/crawlers/games.py", line 162, in parse_game
+    home_club_position = home_club_box[0].xpath('p/text()').get()
+                         ~~~~~~~~~~~~~^^^
+  File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__
+    o = super().__getitem__(pos)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/coleraine-fc_cliftonville-fc/index/spielbericht/4641977 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 114, in __call__
+    await final_context_consumer(cast('TCrawlingContext', crawling_context))
+  File "/usr/local/lib/python3.12/site-packages/crawlee/_utils/wait.py", line 37, in wait_for
+    return await asyncio.wait_for(operation(), timeout.total_seconds())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/router.py", line 108, in __call__
+    return await user_defined_handler(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/tfmkt/crawlers/games.py", line 162, in parse_game
+    home_club_position = home_club_box[0].xpath('p/text()').get()
+                         ~~~~~~~~~~~~~^^^
+  File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__
+    o = super().__getitem__(pos)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/portadown-fc_crusaders-fc/index/spielbericht/4641986 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 114, in __call__
+    await final_context_consumer(cast('TCrawlingContext', crawling_context))
+  File "/usr/local/lib/python3.12/site-packages/crawlee/_utils/wait.py", line 37, in wait_for
+    return await asyncio.wait_for(operation(), timeout.total_seconds())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/router.py", line 108, in __call__
+    return await user_defined_handler(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/tfmkt/crawlers/games.py", line 162, in parse_game
+    home_club_position = home_club_box[0].xpath('p/text()').get()
+                         ~~~~~~~~~~~~~^^^
+  File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__
+    o = super().__getitem__(pos)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+[90m[ParselCrawler][0m [32mINFO [0m Crawled 123/200 pages, 76 failed requests, desired concurrency 12.
+[90m[ParselCrawler][0m [32mINFO [0m Crawled 123/200 pages, 76 failed requests, desired concurrency 12.
+[90m[ParselCrawler][0m [32mINFO [0m Crawled 123/200 pages, 76 failed requests, desired concurrency 12.
+[90m[ParselCrawler][0m [32mINFO [0m Current request statistics:
+┌───────────────────────────────┬─────────────────┐
+│ requests_finished             │ 123             │
+│ requests_failed               │ 76              │
+│ retry_histogram               │ [123, 0, 0, 76] │
+│ request_avg_failed_duration   │ 84.9ms          │
+│ request_avg_finished_duration │ 1.49s           │
+│ requests_finished_per_minute  │ 123             │
+│ requests_failed_per_minute    │ 76              │
+│ request_total_duration        │ 3min 9.8s       │
+│ requests_total                │ 199             │
+│ crawler_runtime               │ 59.99s          │
+└───────────────────────────────┴─────────────────┘
+[90m[crawlee._autoscaling.autoscaled_pool][0m [32mINFO [0m current_concurrency = 4; desired_concurrency = 12; cpu = 0.0; mem = 0.0; event_loop = 0.0; client_info = 0.0
+[90m[ParselCrawler][0m [32mINFO [0m Crawled 123/200 pages, 76 failed requests, desired concurrency 12.
+[90m[ParselCrawler][0m [32mINFO [0m Crawled 123/200 pages, 76 failed requests, desired concurrency 12.
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/bangor-fc_linfield-fc/index/spielbericht/4641886 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1545, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/bangor-fc_linfield-fc/index/spielbericht/4641886 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/bangor-fc_linfield-fc/index/spielbericht/4641886 due to: list index out of range. File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__,     o = super().__getitem__(pos)
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/bangor-fc_linfield-fc/index/spielbericht/4641886 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 114, in __call__
+    await final_context_consumer(cast('TCrawlingContext', crawling_context))
+  File "/usr/local/lib/python3.12/site-packages/crawlee/_utils/wait.py", line 37, in wait_for
+    return await asyncio.wait_for(operation(), timeout.total_seconds())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/router.py", line 108, in __call__
+    return await user_defined_handler(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/tfmkt/crawlers/games.py", line 162, in parse_game
+    home_club_position = home_club_box[0].xpath('p/text()').get()
+                         ~~~~~~~~~~~~~^^^
+  File "/usr/local/lib/python3.12/site-packages/parsel/selector.py", line 139, in __getitem__
+    o = super().__getitem__(pos)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+[90m[crawlee._autoscaling.autoscaled_pool][0m [32mINFO [0m Waiting for remaining tasks to finish
+[90m[ParselCrawler][0m [32mINFO [0m Error analysis: total_errors=308 unique_errors=2
+[90m[ParselCrawler][0m [32mINFO [0m Final request statistics:
+┌───────────────────────────────┬─────────────────┐
+│ requests_finished             │ 123             │
+│ requests_failed               │ 77              │
+│ retry_histogram               │ [123, 0, 0, 77] │
+│ request_avg_failed_duration   │ 91.7ms          │
+│ request_avg_finished_duration │ 1.49s           │
+│ requests_finished_per_minute  │ 95              │
+│ requests_failed_per_minute    │ 59              │
+│ request_total_duration        │ 3min 10.4s      │
+│ requests_total                │ 200             │
+│ crawler_runtime               │ 1min 17.7s      │
+└───────────────────────────────┴─────────────────┘
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/carrick-rangers-fc_larne-fc/index/spielbericht/4641916: list index out of range
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/bangor-fc_cliftonville-fc/index/spielbericht/4641910: list index out of range
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/crusaders-fc_larne-fc/index/spielbericht/4641911: list index out of range
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/linfield-fc_glentoran-fc/index/spielbericht/4641919: list index out of range
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/glenavon-fc_linfield-fc/index/spielbericht/4641913: list index out of range
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/ballymena-united-fc_carrick-rangers-fc/index/spielbericht/4641909: list index out of range
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/portadown-fc_ballymena-united-fc/index/spielbericht/4641908: list index out of range
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/cliftonville-fc_crusaders-fc/index/spielbericht/4641917: list index out of range
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/portadown-fc_glenavon-fc/index/spielbericht/4641920: list index out of range
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/coleraine-fc_linfield-fc/index/spielbericht/4641922: list index out of range
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/dungannon-swifts-fc_portadown-fc/index/spielbericht/4641912: list index out of range
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/linfield-fc_bangor-fc/index/spielbericht/4641931: list index out of range
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/glenavon-fc_dungannon-swifts-fc/index/spielbericht/4641924: list index out of range
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/larne-fc_coleraine-fc/index/spielbericht/4641930: list index out of range
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/glentoran-fc_portadown-fc/index/spielbericht/4641925: list index out of range
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/bangor-fc_ballymena-united-fc/index/spielbericht/4641921: list index out of range
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/glenavon-fc_glentoran-fc/index/spielbericht/4641937: list index out of range
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/crusaders-fc_carrick-rangers-fc/index/spielbericht/4641923: list index out of range
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/carrick-rangers-fc_glentoran-fc/index/spielbericht/4641928: list index out of range
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/linfield-fc_larne-fc/index/spielbericht/4641938: list index out of range
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/crusaders-fc_linfield-fc/index/spielbericht/4641942: list index out of range
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/crusaders-fc_dungannon-swifts-fc/index/spielbericht/4641929: list index out of range
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/larne-fc_cliftonville-fc/index/spielbericht/4641926: list index out of range
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/carrick-rangers-fc_dungannon-swifts-fc/index/spielbericht/4641940: list index out of range
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/larne-fc_bangor-fc/index/spielbericht/4641944: list index out of range
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/cliftonville-fc_carrick-rangers-fc/index/spielbericht/4641934: list index out of range
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/ballymena-united-fc_glenavon-fc/index/spielbericht/4641927: list index out of range
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/portadown-fc_cliftonville-fc/index/spielbericht/4641932: list index out of range
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/coleraine-fc_glenavon-fc/index/spielbericht/4641941: list index out of range
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/bangor-fc_portadown-fc/index/spielbericht/4641933: list index out of range
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/dungannon-swifts-fc_ballymena-united-fc/index/spielbericht/4641936: list index out of range
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/cliftonville-fc_bangor-fc/index/spielbericht/4641953: list index out of range
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/portadown-fc_carrick-rangers-fc/index/spielbericht/4641950: list index out of range
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/glenavon-fc_cliftonville-fc/index/spielbericht/4641948: list index out of range
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/coleraine-fc_portadown-fc/index/spielbericht/4641954: list index out of range
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/coleraine-fc_ballymena-united-fc/index/spielbericht/4641965: list index out of range
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/coleraine-fc_crusaders-fc/index/spielbericht/4641935: list index out of range
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/bangor-fc_coleraine-fc/index/spielbericht/4641945: list index out of range
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/carrick-rangers-fc_glenavon-fc/index/spielbericht/4641952: list index out of range
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/glentoran-fc_cliftonville-fc/index/spielbericht/4641943: list index out of range
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/ballymena-united-fc_portadown-fc/index/spielbericht/4641939: list index out of range
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/crusaders-fc_larne-fc/index/spielbericht/4641946: list index out of range
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/carrick-rangers-fc_coleraine-fc/index/spielbericht/4641957: list index out of range
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/dungannon-swifts-fc_glentoran-fc/index/spielbericht/4641947: list index out of range
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/glenavon-fc_linfield-fc/index/spielbericht/4641960: list index out of range
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/glentoran-fc_ballymena-united-fc/index/spielbericht/4641961: list index out of range
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/linfield-fc_ballymena-united-fc/index/spielbericht/4641949: list index out of range
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/crusaders-fc_bangor-fc/index/spielbericht/4641958: list index out of range
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/dungannon-swifts-fc_cliftonville-fc/index/spielbericht/4641959: list index out of range
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/linfield-fc_dungannon-swifts-fc/index/spielbericht/4641956: list index out of range
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/larne-fc_glentoran-fc/index/spielbericht/4641955: list index out of range
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/linfield-fc_glentoran-fc/index/spielbericht/4641967: list index out of range
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/ballymena-united-fc_crusaders-fc/index/spielbericht/4641951: list index out of range
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/ballymena-united-fc_larne-fc/index/spielbericht/4641969: list index out of range
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/bangor-fc_glenavon-fc/index/spielbericht/4641963: list index out of range
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/dungannon-swifts-fc_coleraine-fc/index/spielbericht/4641972: list index out of range
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/larne-fc_carrick-rangers-fc/index/spielbericht/4641966: list index out of range
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/carrick-rangers-fc_linfield-fc/index/spielbericht/4641981: list index out of range
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/glentoran-fc_crusaders-fc/index/spielbericht/4641974: list index out of range
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/cliftonville-fc_crusaders-fc/index/spielbericht/4641964: list index out of range
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/portadown-fc_larne-fc/index/spielbericht/4641962: list index out of range
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/linfield-fc_portadown-fc/index/spielbericht/4641980: list index out of range
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/carrick-rangers-fc_bangor-fc/index/spielbericht/4641970: list index out of range
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/portadown-fc_dungannon-swifts-fc/index/spielbericht/4641968: list index out of range
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/larne-fc_dungannon-swifts-fc/index/spielbericht/4641979: list index out of range
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/cliftonville-fc_ballymena-united-fc/index/spielbericht/4641982: list index out of range
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/bangor-fc_glentoran-fc/index/spielbericht/4641976: list index out of range
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/glenavon-fc_larne-fc/index/spielbericht/4641984: list index out of range
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/dungannon-swifts-fc_bangor-fc/index/spielbericht/4641983: list index out of range
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/crusaders-fc_glenavon-fc/index/spielbericht/4641978: list index out of range
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/glenavon-fc_portadown-fc/index/spielbericht/4641973: list index out of range
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/cliftonville-fc_linfield-fc/index/spielbericht/4641971: list index out of range
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/glentoran-fc_coleraine-fc/index/spielbericht/4641985: list index out of range
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/ballymena-united-fc_carrick-rangers-fc/index/spielbericht/4641975: list index out of range
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/coleraine-fc_cliftonville-fc/index/spielbericht/4641977: list index out of range
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/portadown-fc_crusaders-fc/index/spielbericht/4641986: list index out of range
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/bangor-fc_linfield-fc/index/spielbericht/4641886: list index out of range
