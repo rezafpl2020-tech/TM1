@@ -13,11 +13,13 @@
 └───────────────────────────────┴──────┘
 [90m[ParselCrawler][0m [32mINFO [0m Crawled 0/1 pages, 0 failed requests, desired concurrency 10.
 [90m[crawlee._autoscaling.autoscaled_pool][0m [32mINFO [0m current_concurrency = 0; desired_concurrency = 10; cpu = 0; mem = 0; event_loop = 0.0; client_info = 0.0
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/spielbericht/index/spielbericht/4857706 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1545, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [32mINFO [0m Crawled 12/50 pages, 0 failed requests, desired concurrency 10.
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/spielbericht/index/spielbericht/4857706 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1545, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/spielbericht/index/spielbericht/4857706 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1545, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/spielbericht/index/spielbericht/4857706 failed and reached maximum retries
+[90m[ParselCrawler][0m [32mINFO [0m Crawled 29/62 pages, 0 failed requests, desired concurrency 10.
+[90m[ParselCrawler][0m [32mINFO [0m Crawled 61/62 pages, 0 failed requests, desired concurrency 11.
+[90m[ParselCrawler][0m [32mINFO [0m Crawled 61/62 pages, 0 failed requests, desired concurrency 12.
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/incheon-united_gimcheon-sangmu/index/spielbericht/4803396 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1545, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/incheon-united_gimcheon-sangmu/index/spielbericht/4803396 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1545, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/incheon-united_gimcheon-sangmu/index/spielbericht/4803396 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1545, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/incheon-united_gimcheon-sangmu/index/spielbericht/4803396 failed and reached maximum retries
  Traceback (most recent call last):
   File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 100, in __call__
     result = await middleware_instance.action()
@@ -30,22 +32,19 @@
   File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1545, in _raise_for_error_status_code
     raise HttpStatusCodeError('Error status code returned', status_code)
 crawlee.errors.HttpStatusCodeError: Error status code returned (status code: 502).
-[90m[ParselCrawler][0m [32mINFO [0m Crawled 47/50 pages, 1 failed requests, desired concurrency 11.
-[90m[ParselCrawler][0m [32mINFO [0m Crawled 48/50 pages, 1 failed requests, desired concurrency 11.
-[90m[ParselCrawler][0m [32mINFO [0m Crawled 48/50 pages, 1 failed requests, desired concurrency 11.
 [90m[crawlee._autoscaling.autoscaled_pool][0m [32mINFO [0m Waiting for remaining tasks to finish
 [90m[ParselCrawler][0m [32mINFO [0m Error analysis: total_errors=4 unique_errors=1
 [90m[ParselCrawler][0m [32mINFO [0m Final request statistics:
 ┌───────────────────────────────┬───────────────┐
-│ requests_finished             │ 49            │
+│ requests_finished             │ 61            │
 │ requests_failed               │ 1             │
-│ retry_histogram               │ [49, 0, 0, 1] │
-│ request_avg_failed_duration   │ 81.0ms        │
-│ request_avg_finished_duration │ 3.22s         │
-│ requests_finished_per_minute  │ 64            │
+│ retry_histogram               │ [61, 0, 0, 1] │
+│ request_avg_failed_duration   │ 250.3ms       │
+│ request_avg_finished_duration │ 2.27s         │
+│ requests_finished_per_minute  │ 92            │
 │ requests_failed_per_minute    │ 1             │
-│ request_total_duration        │ 2min 37.8s    │
-│ requests_total                │ 50            │
-│ crawler_runtime               │ 46.22s        │
+│ request_total_duration        │ 2min 18.9s    │
+│ requests_total                │ 62            │
+│ crawler_runtime               │ 39.77s        │
 └───────────────────────────────┴───────────────┘
-[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/spielbericht/index/spielbericht/4857706: Error status code returned (status code: 502).
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/incheon-united_gimcheon-sangmu/index/spielbericht/4803396: Error status code returned (status code: 502).
