@@ -1,0 +1,898 @@
+[90m[ParselCrawler][0m [32mINFO [0m Current request statistics:
+┌───────────────────────────────┬──────┐
+│ requests_finished             │ 0    │
+│ requests_failed               │ 0    │
+│ retry_histogram               │ [0]  │
+│ request_avg_failed_duration   │ None │
+│ request_avg_finished_duration │ None │
+│ requests_finished_per_minute  │ 0    │
+│ requests_failed_per_minute    │ 0    │
+│ request_total_duration        │ 0s   │
+│ requests_total                │ 0    │
+│ crawler_runtime               │ 0s   │
+└───────────────────────────────┴──────┘
+[90m[ParselCrawler][0m [32mINFO [0m Crawled 0/1 pages, 0 failed requests, desired concurrency 10.
+[90m[crawlee._autoscaling.autoscaled_pool][0m [32mINFO [0m current_concurrency = 0; desired_concurrency = 10; cpu = 0; mem = 0; event_loop = 0.0; client_info = 0.0
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/fc-petrocub-hincesti_fc-balti/index/spielbericht/4627129 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 100, in __call__
+    result = await middleware_instance.action()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 40, in action
+    self.output_context = await self.generator.__anext__()
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_abstract_http/_abstract_http_crawler.py", line 308, in _handle_status_code_response
+    self._raise_for_error_status_code(status_code)
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1561, in _raise_for_error_status_code
+    raise HttpClientStatusCodeError('Client error status code returned', status_code)
+crawlee.errors.HttpClientStatusCodeError: Client error status code returned (status code: 405).
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/fc-petrocub-hincesti_fc-zimbru-chisinau/index/spielbericht/4635841 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 100, in __call__
+    result = await middleware_instance.action()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 40, in action
+    self.output_context = await self.generator.__anext__()
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_abstract_http/_abstract_http_crawler.py", line 308, in _handle_status_code_response
+    self._raise_for_error_status_code(status_code)
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1561, in _raise_for_error_status_code
+    raise HttpClientStatusCodeError('Client error status code returned', status_code)
+crawlee.errors.HttpClientStatusCodeError: Client error status code returned (status code: 405).
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/fc-petrocub-hincesti_politehnica-utm-shisinau/index/spielbericht/4646884 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 100, in __call__
+    result = await middleware_instance.action()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 40, in action
+    self.output_context = await self.generator.__anext__()
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_abstract_http/_abstract_http_crawler.py", line 308, in _handle_status_code_response
+    self._raise_for_error_status_code(status_code)
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1561, in _raise_for_error_status_code
+    raise HttpClientStatusCodeError('Client error status code returned', status_code)
+crawlee.errors.HttpClientStatusCodeError: Client error status code returned (status code: 405).
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/fc-milsami-orhei_fc-zimbru-chisinau/index/spielbericht/4627127 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 100, in __call__
+    result = await middleware_instance.action()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 40, in action
+    self.output_context = await self.generator.__anext__()
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_abstract_http/_abstract_http_crawler.py", line 308, in _handle_status_code_response
+    self._raise_for_error_status_code(status_code)
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1561, in _raise_for_error_status_code
+    raise HttpClientStatusCodeError('Client error status code returned', status_code)
+crawlee.errors.HttpClientStatusCodeError: Client error status code returned (status code: 405).
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/fc-sheriff-tiraspol_csf-spartanii-sportul-selemet/index/spielbericht/4635840 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 100, in __call__
+    result = await middleware_instance.action()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 40, in action
+    self.output_context = await self.generator.__anext__()
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_abstract_http/_abstract_http_crawler.py", line 308, in _handle_status_code_response
+    self._raise_for_error_status_code(status_code)
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1561, in _raise_for_error_status_code
+    raise HttpClientStatusCodeError('Client error status code returned', status_code)
+crawlee.errors.HttpClientStatusCodeError: Client error status code returned (status code: 405).
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/politehnica-utm-shisinau_dacia-buiucani/index/spielbericht/4660686 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 100, in __call__
+    result = await middleware_instance.action()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 40, in action
+    self.output_context = await self.generator.__anext__()
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_abstract_http/_abstract_http_crawler.py", line 308, in _handle_status_code_response
+    self._raise_for_error_status_code(status_code)
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1561, in _raise_for_error_status_code
+    raise HttpClientStatusCodeError('Client error status code returned', status_code)
+crawlee.errors.HttpClientStatusCodeError: Client error status code returned (status code: 405).
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/csf-spartanii-sportul-selemet_fc-balti/index/spielbericht/4646886 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 100, in __call__
+    result = await middleware_instance.action()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 40, in action
+    self.output_context = await self.generator.__anext__()
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_abstract_http/_abstract_http_crawler.py", line 308, in _handle_status_code_response
+    self._raise_for_error_status_code(status_code)
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1561, in _raise_for_error_status_code
+    raise HttpClientStatusCodeError('Client error status code returned', status_code)
+crawlee.errors.HttpClientStatusCodeError: Client error status code returned (status code: 405).
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/dacia-buiucani_fc-zimbru-chisinau/index/spielbericht/4646887 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 100, in __call__
+    result = await middleware_instance.action()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 40, in action
+    self.output_context = await self.generator.__anext__()
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_abstract_http/_abstract_http_crawler.py", line 308, in _handle_status_code_response
+    self._raise_for_error_status_code(status_code)
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1561, in _raise_for_error_status_code
+    raise HttpClientStatusCodeError('Client error status code returned', status_code)
+crawlee.errors.HttpClientStatusCodeError: Client error status code returned (status code: 405).
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/fc-milsami-orhei_fc-petrocub-hincesti/index/spielbericht/4660687 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 100, in __call__
+    result = await middleware_instance.action()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 40, in action
+    self.output_context = await self.generator.__anext__()
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_abstract_http/_abstract_http_crawler.py", line 308, in _handle_status_code_response
+    self._raise_for_error_status_code(status_code)
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1561, in _raise_for_error_status_code
+    raise HttpClientStatusCodeError('Client error status code returned', status_code)
+crawlee.errors.HttpClientStatusCodeError: Client error status code returned (status code: 405).
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/dacia-buiucani_csf-spartanii-sportul-selemet/index/spielbericht/4627126 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 100, in __call__
+    result = await middleware_instance.action()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 40, in action
+    self.output_context = await self.generator.__anext__()
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_abstract_http/_abstract_http_crawler.py", line 308, in _handle_status_code_response
+    self._raise_for_error_status_code(status_code)
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1561, in _raise_for_error_status_code
+    raise HttpClientStatusCodeError('Client error status code returned', status_code)
+crawlee.errors.HttpClientStatusCodeError: Client error status code returned (status code: 405).
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/fc-petrocub-hincesti_fc-sheriff-tiraspol/index/spielbericht/4671508 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 100, in __call__
+    result = await middleware_instance.action()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 40, in action
+    self.output_context = await self.generator.__anext__()
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_abstract_http/_abstract_http_crawler.py", line 308, in _handle_status_code_response
+    self._raise_for_error_status_code(status_code)
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1561, in _raise_for_error_status_code
+    raise HttpClientStatusCodeError('Client error status code returned', status_code)
+crawlee.errors.HttpClientStatusCodeError: Client error status code returned (status code: 405).
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/politehnica-utm-shisinau_fc-balti/index/spielbericht/4686405 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 100, in __call__
+    result = await middleware_instance.action()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 40, in action
+    self.output_context = await self.generator.__anext__()
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_abstract_http/_abstract_http_crawler.py", line 308, in _handle_status_code_response
+    self._raise_for_error_status_code(status_code)
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1561, in _raise_for_error_status_code
+    raise HttpClientStatusCodeError('Client error status code returned', status_code)
+crawlee.errors.HttpClientStatusCodeError: Client error status code returned (status code: 405).
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/csf-spartanii-sportul-selemet_politehnica-utm-shisinau/index/spielbericht/4671507 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 100, in __call__
+    result = await middleware_instance.action()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 40, in action
+    self.output_context = await self.generator.__anext__()
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_abstract_http/_abstract_http_crawler.py", line 308, in _handle_status_code_response
+    self._raise_for_error_status_code(status_code)
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1561, in _raise_for_error_status_code
+    raise HttpClientStatusCodeError('Client error status code returned', status_code)
+crawlee.errors.HttpClientStatusCodeError: Client error status code returned (status code: 405).
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/fc-petrocub-hincesti_dacia-buiucani/index/spielbericht/4686408 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 100, in __call__
+    result = await middleware_instance.action()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 40, in action
+    self.output_context = await self.generator.__anext__()
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_abstract_http/_abstract_http_crawler.py", line 308, in _handle_status_code_response
+    self._raise_for_error_status_code(status_code)
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1561, in _raise_for_error_status_code
+    raise HttpClientStatusCodeError('Client error status code returned', status_code)
+crawlee.errors.HttpClientStatusCodeError: Client error status code returned (status code: 405).
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/csf-spartanii-sportul-selemet_fc-petrocub-hincesti/index/spielbericht/4695491 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 100, in __call__
+    result = await middleware_instance.action()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 40, in action
+    self.output_context = await self.generator.__anext__()
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_abstract_http/_abstract_http_crawler.py", line 308, in _handle_status_code_response
+    self._raise_for_error_status_code(status_code)
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1561, in _raise_for_error_status_code
+    raise HttpClientStatusCodeError('Client error status code returned', status_code)
+crawlee.errors.HttpClientStatusCodeError: Client error status code returned (status code: 405).
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/fc-balti_fc-milsami-orhei/index/spielbericht/4695492 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 100, in __call__
+    result = await middleware_instance.action()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 40, in action
+    self.output_context = await self.generator.__anext__()
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_abstract_http/_abstract_http_crawler.py", line 308, in _handle_status_code_response
+    self._raise_for_error_status_code(status_code)
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1561, in _raise_for_error_status_code
+    raise HttpClientStatusCodeError('Client error status code returned', status_code)
+crawlee.errors.HttpClientStatusCodeError: Client error status code returned (status code: 405).
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/csf-spartanii-sportul-selemet_dacia-buiucani/index/spielbericht/4703824 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 100, in __call__
+    result = await middleware_instance.action()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 40, in action
+    self.output_context = await self.generator.__anext__()
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_abstract_http/_abstract_http_crawler.py", line 308, in _handle_status_code_response
+    self._raise_for_error_status_code(status_code)
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1561, in _raise_for_error_status_code
+    raise HttpClientStatusCodeError('Client error status code returned', status_code)
+crawlee.errors.HttpClientStatusCodeError: Client error status code returned (status code: 405).
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/fc-zimbru-chisinau_fc-milsami-orhei/index/spielbericht/4703827 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 100, in __call__
+    result = await middleware_instance.action()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 40, in action
+    self.output_context = await self.generator.__anext__()
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_abstract_http/_abstract_http_crawler.py", line 308, in _handle_status_code_response
+    self._raise_for_error_status_code(status_code)
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1561, in _raise_for_error_status_code
+    raise HttpClientStatusCodeError('Client error status code returned', status_code)
+crawlee.errors.HttpClientStatusCodeError: Client error status code returned (status code: 405).
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/dacia-buiucani_fc-balti/index/spielbericht/4707733 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 100, in __call__
+    result = await middleware_instance.action()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 40, in action
+    self.output_context = await self.generator.__anext__()
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_abstract_http/_abstract_http_crawler.py", line 308, in _handle_status_code_response
+    self._raise_for_error_status_code(status_code)
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1561, in _raise_for_error_status_code
+    raise HttpClientStatusCodeError('Client error status code returned', status_code)
+crawlee.errors.HttpClientStatusCodeError: Client error status code returned (status code: 405).
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/csf-spartanii-sportul-selemet_fc-sheriff-tiraspol/index/spielbericht/4707735 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 100, in __call__
+    result = await middleware_instance.action()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 40, in action
+    self.output_context = await self.generator.__anext__()
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_abstract_http/_abstract_http_crawler.py", line 308, in _handle_status_code_response
+    self._raise_for_error_status_code(status_code)
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1561, in _raise_for_error_status_code
+    raise HttpClientStatusCodeError('Client error status code returned', status_code)
+crawlee.errors.HttpClientStatusCodeError: Client error status code returned (status code: 405).
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/fc-zimbru-chisinau_fc-petrocub-hincesti/index/spielbericht/4707734 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 100, in __call__
+    result = await middleware_instance.action()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 40, in action
+    self.output_context = await self.generator.__anext__()
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_abstract_http/_abstract_http_crawler.py", line 308, in _handle_status_code_response
+    self._raise_for_error_status_code(status_code)
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1561, in _raise_for_error_status_code
+    raise HttpClientStatusCodeError('Client error status code returned', status_code)
+crawlee.errors.HttpClientStatusCodeError: Client error status code returned (status code: 405).
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/politehnica-utm-shisinau_fc-petrocub-hincesti/index/spielbericht/4712141 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 100, in __call__
+    result = await middleware_instance.action()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 40, in action
+    self.output_context = await self.generator.__anext__()
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_abstract_http/_abstract_http_crawler.py", line 308, in _handle_status_code_response
+    self._raise_for_error_status_code(status_code)
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1561, in _raise_for_error_status_code
+    raise HttpClientStatusCodeError('Client error status code returned', status_code)
+crawlee.errors.HttpClientStatusCodeError: Client error status code returned (status code: 405).
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/csf-spartanii-sportul-selemet_fc-balti/index/spielbericht/4712143 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 100, in __call__
+    result = await middleware_instance.action()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 40, in action
+    self.output_context = await self.generator.__anext__()
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_abstract_http/_abstract_http_crawler.py", line 308, in _handle_status_code_response
+    self._raise_for_error_status_code(status_code)
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1561, in _raise_for_error_status_code
+    raise HttpClientStatusCodeError('Client error status code returned', status_code)
+crawlee.errors.HttpClientStatusCodeError: Client error status code returned (status code: 405).
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/dacia-buiucani_politehnica-utm-shisinau/index/spielbericht/4716800 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 100, in __call__
+    result = await middleware_instance.action()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 40, in action
+    self.output_context = await self.generator.__anext__()
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_abstract_http/_abstract_http_crawler.py", line 308, in _handle_status_code_response
+    self._raise_for_error_status_code(status_code)
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1561, in _raise_for_error_status_code
+    raise HttpClientStatusCodeError('Client error status code returned', status_code)
+crawlee.errors.HttpClientStatusCodeError: Client error status code returned (status code: 405).
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/fc-zimbru-chisinau_dacia-buiucani/index/spielbericht/4712142 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 100, in __call__
+    result = await middleware_instance.action()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 40, in action
+    self.output_context = await self.generator.__anext__()
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_abstract_http/_abstract_http_crawler.py", line 308, in _handle_status_code_response
+    self._raise_for_error_status_code(status_code)
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1561, in _raise_for_error_status_code
+    raise HttpClientStatusCodeError('Client error status code returned', status_code)
+crawlee.errors.HttpClientStatusCodeError: Client error status code returned (status code: 405).
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/fc-balti_fc-sheriff-tiraspol/index/spielbericht/4716802 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 100, in __call__
+    result = await middleware_instance.action()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 40, in action
+    self.output_context = await self.generator.__anext__()
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_abstract_http/_abstract_http_crawler.py", line 308, in _handle_status_code_response
+    self._raise_for_error_status_code(status_code)
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1561, in _raise_for_error_status_code
+    raise HttpClientStatusCodeError('Client error status code returned', status_code)
+crawlee.errors.HttpClientStatusCodeError: Client error status code returned (status code: 405).
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/fc-petrocub-hincesti_fc-milsami-orhei/index/spielbericht/4716803 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 100, in __call__
+    result = await middleware_instance.action()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 40, in action
+    self.output_context = await self.generator.__anext__()
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_abstract_http/_abstract_http_crawler.py", line 308, in _handle_status_code_response
+    self._raise_for_error_status_code(status_code)
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1561, in _raise_for_error_status_code
+    raise HttpClientStatusCodeError('Client error status code returned', status_code)
+crawlee.errors.HttpClientStatusCodeError: Client error status code returned (status code: 405).
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/fc-zimbru-chisinau_fc-balti/index/spielbericht/4733637 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 100, in __call__
+    result = await middleware_instance.action()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 40, in action
+    self.output_context = await self.generator.__anext__()
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_abstract_http/_abstract_http_crawler.py", line 308, in _handle_status_code_response
+    self._raise_for_error_status_code(status_code)
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1561, in _raise_for_error_status_code
+    raise HttpClientStatusCodeError('Client error status code returned', status_code)
+crawlee.errors.HttpClientStatusCodeError: Client error status code returned (status code: 405).
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/fc-sheriff-tiraspol_fc-milsami-orhei/index/spielbericht/4712144 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 100, in __call__
+    result = await middleware_instance.action()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 40, in action
+    self.output_context = await self.generator.__anext__()
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_abstract_http/_abstract_http_crawler.py", line 308, in _handle_status_code_response
+    self._raise_for_error_status_code(status_code)
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1561, in _raise_for_error_status_code
+    raise HttpClientStatusCodeError('Client error status code returned', status_code)
+crawlee.errors.HttpClientStatusCodeError: Client error status code returned (status code: 405).
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/fc-milsami-orhei_dacia-buiucani/index/spielbericht/4733638 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 100, in __call__
+    result = await middleware_instance.action()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 40, in action
+    self.output_context = await self.generator.__anext__()
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_abstract_http/_abstract_http_crawler.py", line 308, in _handle_status_code_response
+    self._raise_for_error_status_code(status_code)
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1561, in _raise_for_error_status_code
+    raise HttpClientStatusCodeError('Client error status code returned', status_code)
+crawlee.errors.HttpClientStatusCodeError: Client error status code returned (status code: 405).
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/politehnica-utm-shisinau_csf-spartanii-sportul-selemet/index/spielbericht/4733639 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 100, in __call__
+    result = await middleware_instance.action()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 40, in action
+    self.output_context = await self.generator.__anext__()
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_abstract_http/_abstract_http_crawler.py", line 308, in _handle_status_code_response
+    self._raise_for_error_status_code(status_code)
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1561, in _raise_for_error_status_code
+    raise HttpClientStatusCodeError('Client error status code returned', status_code)
+crawlee.errors.HttpClientStatusCodeError: Client error status code returned (status code: 405).
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/csf-spartanii-sportul-selemet_fc-milsami-orhei/index/spielbericht/4733641 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 100, in __call__
+    result = await middleware_instance.action()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 40, in action
+    self.output_context = await self.generator.__anext__()
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_abstract_http/_abstract_http_crawler.py", line 308, in _handle_status_code_response
+    self._raise_for_error_status_code(status_code)
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1561, in _raise_for_error_status_code
+    raise HttpClientStatusCodeError('Client error status code returned', status_code)
+crawlee.errors.HttpClientStatusCodeError: Client error status code returned (status code: 405).
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/fc-zimbru-chisinau_csf-spartanii-sportul-selemet/index/spielbericht/4716801 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 100, in __call__
+    result = await middleware_instance.action()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 40, in action
+    self.output_context = await self.generator.__anext__()
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_abstract_http/_abstract_http_crawler.py", line 308, in _handle_status_code_response
+    self._raise_for_error_status_code(status_code)
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1561, in _raise_for_error_status_code
+    raise HttpClientStatusCodeError('Client error status code returned', status_code)
+crawlee.errors.HttpClientStatusCodeError: Client error status code returned (status code: 405).
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/fc-zimbru-chisinau_fc-sheriff-tiraspol/index/spielbericht/4733644 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 100, in __call__
+    result = await middleware_instance.action()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 40, in action
+    self.output_context = await self.generator.__anext__()
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_abstract_http/_abstract_http_crawler.py", line 308, in _handle_status_code_response
+    self._raise_for_error_status_code(status_code)
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1561, in _raise_for_error_status_code
+    raise HttpClientStatusCodeError('Client error status code returned', status_code)
+crawlee.errors.HttpClientStatusCodeError: Client error status code returned (status code: 405).
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/fc-balti_politehnica-utm-shisinau/index/spielbericht/4733643 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 100, in __call__
+    result = await middleware_instance.action()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 40, in action
+    self.output_context = await self.generator.__anext__()
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_abstract_http/_abstract_http_crawler.py", line 308, in _handle_status_code_response
+    self._raise_for_error_status_code(status_code)
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1561, in _raise_for_error_status_code
+    raise HttpClientStatusCodeError('Client error status code returned', status_code)
+crawlee.errors.HttpClientStatusCodeError: Client error status code returned (status code: 405).
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/fc-sheriff-tiraspol_dacia-buiucani/index/spielbericht/4733646 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 100, in __call__
+    result = await middleware_instance.action()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 40, in action
+    self.output_context = await self.generator.__anext__()
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_abstract_http/_abstract_http_crawler.py", line 308, in _handle_status_code_response
+    self._raise_for_error_status_code(status_code)
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1561, in _raise_for_error_status_code
+    raise HttpClientStatusCodeError('Client error status code returned', status_code)
+crawlee.errors.HttpClientStatusCodeError: Client error status code returned (status code: 405).
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/fc-petrocub-hincesti_csf-spartanii-sportul-selemet/index/spielbericht/4733647 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 100, in __call__
+    result = await middleware_instance.action()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 40, in action
+    self.output_context = await self.generator.__anext__()
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_abstract_http/_abstract_http_crawler.py", line 308, in _handle_status_code_response
+    self._raise_for_error_status_code(status_code)
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1561, in _raise_for_error_status_code
+    raise HttpClientStatusCodeError('Client error status code returned', status_code)
+crawlee.errors.HttpClientStatusCodeError: Client error status code returned (status code: 405).
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/fc-milsami-orhei_fc-balti/index/spielbericht/4733648 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 100, in __call__
+    result = await middleware_instance.action()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 40, in action
+    self.output_context = await self.generator.__anext__()
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_abstract_http/_abstract_http_crawler.py", line 308, in _handle_status_code_response
+    self._raise_for_error_status_code(status_code)
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1561, in _raise_for_error_status_code
+    raise HttpClientStatusCodeError('Client error status code returned', status_code)
+crawlee.errors.HttpClientStatusCodeError: Client error status code returned (status code: 405).
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/politehnica-utm-shisinau_fc-sheriff-tiraspol/index/spielbericht/4735534 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 100, in __call__
+    result = await middleware_instance.action()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 40, in action
+    self.output_context = await self.generator.__anext__()
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_abstract_http/_abstract_http_crawler.py", line 308, in _handle_status_code_response
+    self._raise_for_error_status_code(status_code)
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1561, in _raise_for_error_status_code
+    raise HttpClientStatusCodeError('Client error status code returned', status_code)
+crawlee.errors.HttpClientStatusCodeError: Client error status code returned (status code: 405).
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/fc-petrocub-hincesti_fc-balti/index/spielbericht/4735538 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 100, in __call__
+    result = await middleware_instance.action()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 40, in action
+    self.output_context = await self.generator.__anext__()
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_abstract_http/_abstract_http_crawler.py", line 308, in _handle_status_code_response
+    self._raise_for_error_status_code(status_code)
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1561, in _raise_for_error_status_code
+    raise HttpClientStatusCodeError('Client error status code returned', status_code)
+crawlee.errors.HttpClientStatusCodeError: Client error status code returned (status code: 405).
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/dacia-buiucani_csf-spartanii-sportul-selemet/index/spielbericht/4735535 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 100, in __call__
+    result = await middleware_instance.action()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 40, in action
+    self.output_context = await self.generator.__anext__()
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_abstract_http/_abstract_http_crawler.py", line 308, in _handle_status_code_response
+    self._raise_for_error_status_code(status_code)
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1561, in _raise_for_error_status_code
+    raise HttpClientStatusCodeError('Client error status code returned', status_code)
+crawlee.errors.HttpClientStatusCodeError: Client error status code returned (status code: 405).
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/fc-milsami-orhei_fc-zimbru-chisinau/index/spielbericht/4735539 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 100, in __call__
+    result = await middleware_instance.action()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 40, in action
+    self.output_context = await self.generator.__anext__()
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_abstract_http/_abstract_http_crawler.py", line 308, in _handle_status_code_response
+    self._raise_for_error_status_code(status_code)
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1561, in _raise_for_error_status_code
+    raise HttpClientStatusCodeError('Client error status code returned', status_code)
+crawlee.errors.HttpClientStatusCodeError: Client error status code returned (status code: 405).
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/fc-balti_dacia-buiucani/index/spielbericht/4735540 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 100, in __call__
+    result = await middleware_instance.action()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 40, in action
+    self.output_context = await self.generator.__anext__()
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_abstract_http/_abstract_http_crawler.py", line 308, in _handle_status_code_response
+    self._raise_for_error_status_code(status_code)
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1561, in _raise_for_error_status_code
+    raise HttpClientStatusCodeError('Client error status code returned', status_code)
+crawlee.errors.HttpClientStatusCodeError: Client error status code returned (status code: 405).
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/fc-zimbru-chisinau_fc-petrocub-hincesti/index/spielbericht/4735541 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 100, in __call__
+    result = await middleware_instance.action()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 40, in action
+    self.output_context = await self.generator.__anext__()
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_abstract_http/_abstract_http_crawler.py", line 308, in _handle_status_code_response
+    self._raise_for_error_status_code(status_code)
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1561, in _raise_for_error_status_code
+    raise HttpClientStatusCodeError('Client error status code returned', status_code)
+crawlee.errors.HttpClientStatusCodeError: Client error status code returned (status code: 405).
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/dacia-buiucani_fc-zimbru-chisinau/index/spielbericht/4756635 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 100, in __call__
+    result = await middleware_instance.action()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 40, in action
+    self.output_context = await self.generator.__anext__()
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_abstract_http/_abstract_http_crawler.py", line 308, in _handle_status_code_response
+    self._raise_for_error_status_code(status_code)
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1561, in _raise_for_error_status_code
+    raise HttpClientStatusCodeError('Client error status code returned', status_code)
+crawlee.errors.HttpClientStatusCodeError: Client error status code returned (status code: 405).
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/fc-sheriff-tiraspol_csf-spartanii-sportul-selemet/index/spielbericht/4735537 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 100, in __call__
+    result = await middleware_instance.action()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 40, in action
+    self.output_context = await self.generator.__anext__()
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_abstract_http/_abstract_http_crawler.py", line 308, in _handle_status_code_response
+    self._raise_for_error_status_code(status_code)
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1561, in _raise_for_error_status_code
+    raise HttpClientStatusCodeError('Client error status code returned', status_code)
+crawlee.errors.HttpClientStatusCodeError: Client error status code returned (status code: 405).
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/csf-spartanii-sportul-selemet_fc-balti/index/spielbericht/4756634 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 100, in __call__
+    result = await middleware_instance.action()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 40, in action
+    self.output_context = await self.generator.__anext__()
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_abstract_http/_abstract_http_crawler.py", line 308, in _handle_status_code_response
+    self._raise_for_error_status_code(status_code)
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1561, in _raise_for_error_status_code
+    raise HttpClientStatusCodeError('Client error status code returned', status_code)
+crawlee.errors.HttpClientStatusCodeError: Client error status code returned (status code: 405).
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/politehnica-utm-shisinau_dacia-buiucani/index/spielbericht/4760966 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 100, in __call__
+    result = await middleware_instance.action()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 40, in action
+    self.output_context = await self.generator.__anext__()
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_abstract_http/_abstract_http_crawler.py", line 308, in _handle_status_code_response
+    self._raise_for_error_status_code(status_code)
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1561, in _raise_for_error_status_code
+    raise HttpClientStatusCodeError('Client error status code returned', status_code)
+crawlee.errors.HttpClientStatusCodeError: Client error status code returned (status code: 405).
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/fc-zimbru-chisinau_csf-spartanii-sportul-selemet/index/spielbericht/4760967 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 100, in __call__
+    result = await middleware_instance.action()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 40, in action
+    self.output_context = await self.generator.__anext__()
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_abstract_http/_abstract_http_crawler.py", line 308, in _handle_status_code_response
+    self._raise_for_error_status_code(status_code)
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1561, in _raise_for_error_status_code
+    raise HttpClientStatusCodeError('Client error status code returned', status_code)
+crawlee.errors.HttpClientStatusCodeError: Client error status code returned (status code: 405).
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/fc-sheriff-tiraspol_fc-balti/index/spielbericht/4760968 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 100, in __call__
+    result = await middleware_instance.action()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 40, in action
+    self.output_context = await self.generator.__anext__()
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_abstract_http/_abstract_http_crawler.py", line 308, in _handle_status_code_response
+    self._raise_for_error_status_code(status_code)
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1561, in _raise_for_error_status_code
+    raise HttpClientStatusCodeError('Client error status code returned', status_code)
+crawlee.errors.HttpClientStatusCodeError: Client error status code returned (status code: 405).
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/fc-milsami-orhei_fc-petrocub-hincesti/index/spielbericht/4760969 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 100, in __call__
+    result = await middleware_instance.action()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 40, in action
+    self.output_context = await self.generator.__anext__()
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_abstract_http/_abstract_http_crawler.py", line 308, in _handle_status_code_response
+    self._raise_for_error_status_code(status_code)
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1561, in _raise_for_error_status_code
+    raise HttpClientStatusCodeError('Client error status code returned', status_code)
+crawlee.errors.HttpClientStatusCodeError: Client error status code returned (status code: 405).
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/dacia-buiucani_fc-milsami-orhei/index/spielbericht/4763053 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 100, in __call__
+    result = await middleware_instance.action()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 40, in action
+    self.output_context = await self.generator.__anext__()
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_abstract_http/_abstract_http_crawler.py", line 308, in _handle_status_code_response
+    self._raise_for_error_status_code(status_code)
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1561, in _raise_for_error_status_code
+    raise HttpClientStatusCodeError('Client error status code returned', status_code)
+crawlee.errors.HttpClientStatusCodeError: Client error status code returned (status code: 405).
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/csf-spartanii-sportul-selemet_politehnica-utm-shisinau/index/spielbericht/4763055 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 100, in __call__
+    result = await middleware_instance.action()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 40, in action
+    self.output_context = await self.generator.__anext__()
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_abstract_http/_abstract_http_crawler.py", line 308, in _handle_status_code_response
+    self._raise_for_error_status_code(status_code)
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1561, in _raise_for_error_status_code
+    raise HttpClientStatusCodeError('Client error status code returned', status_code)
+crawlee.errors.HttpClientStatusCodeError: Client error status code returned (status code: 405).
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/fc-balti_fc-zimbru-chisinau/index/spielbericht/4763056 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 100, in __call__
+    result = await middleware_instance.action()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 40, in action
+    self.output_context = await self.generator.__anext__()
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_abstract_http/_abstract_http_crawler.py", line 308, in _handle_status_code_response
+    self._raise_for_error_status_code(status_code)
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1561, in _raise_for_error_status_code
+    raise HttpClientStatusCodeError('Client error status code returned', status_code)
+crawlee.errors.HttpClientStatusCodeError: Client error status code returned (status code: 405).
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/politehnica-utm-shisinau_fc-balti/index/spielbericht/4763057 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 100, in __call__
+    result = await middleware_instance.action()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 40, in action
+    self.output_context = await self.generator.__anext__()
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_abstract_http/_abstract_http_crawler.py", line 308, in _handle_status_code_response
+    self._raise_for_error_status_code(status_code)
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1561, in _raise_for_error_status_code
+    raise HttpClientStatusCodeError('Client error status code returned', status_code)
+crawlee.errors.HttpClientStatusCodeError: Client error status code returned (status code: 405).
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/fc-petrocub-hincesti_dacia-buiucani/index/spielbericht/4763058 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 100, in __call__
+    result = await middleware_instance.action()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 40, in action
+    self.output_context = await self.generator.__anext__()
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_abstract_http/_abstract_http_crawler.py", line 308, in _handle_status_code_response
+    self._raise_for_error_status_code(status_code)
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1561, in _raise_for_error_status_code
+    raise HttpClientStatusCodeError('Client error status code returned', status_code)
+crawlee.errors.HttpClientStatusCodeError: Client error status code returned (status code: 405).
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/fc-milsami-orhei_csf-spartanii-sportul-selemet/index/spielbericht/4763059 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 100, in __call__
+    result = await middleware_instance.action()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 40, in action
+    self.output_context = await self.generator.__anext__()
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_abstract_http/_abstract_http_crawler.py", line 308, in _handle_status_code_response
+    self._raise_for_error_status_code(status_code)
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1561, in _raise_for_error_status_code
+    raise HttpClientStatusCodeError('Client error status code returned', status_code)
+crawlee.errors.HttpClientStatusCodeError: Client error status code returned (status code: 405).
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/fc-sheriff-tiraspol_fc-zimbru-chisinau/index/spielbericht/4763060 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 100, in __call__
+    result = await middleware_instance.action()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 40, in action
+    self.output_context = await self.generator.__anext__()
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_abstract_http/_abstract_http_crawler.py", line 308, in _handle_status_code_response
+    self._raise_for_error_status_code(status_code)
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1561, in _raise_for_error_status_code
+    raise HttpClientStatusCodeError('Client error status code returned', status_code)
+crawlee.errors.HttpClientStatusCodeError: Client error status code returned (status code: 405).
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/dacia-buiucani_fc-sheriff-tiraspol/index/spielbericht/4763061 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 100, in __call__
+    result = await middleware_instance.action()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 40, in action
+    self.output_context = await self.generator.__anext__()
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_abstract_http/_abstract_http_crawler.py", line 308, in _handle_status_code_response
+    self._raise_for_error_status_code(status_code)
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1561, in _raise_for_error_status_code
+    raise HttpClientStatusCodeError('Client error status code returned', status_code)
+crawlee.errors.HttpClientStatusCodeError: Client error status code returned (status code: 405).
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/csf-spartanii-sportul-selemet_fc-petrocub-hincesti/index/spielbericht/4763062 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 100, in __call__
+    result = await middleware_instance.action()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 40, in action
+    self.output_context = await self.generator.__anext__()
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_abstract_http/_abstract_http_crawler.py", line 308, in _handle_status_code_response
+    self._raise_for_error_status_code(status_code)
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1561, in _raise_for_error_status_code
+    raise HttpClientStatusCodeError('Client error status code returned', status_code)
+crawlee.errors.HttpClientStatusCodeError: Client error status code returned (status code: 405).
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/fc-zimbru-chisinau_politehnica-utm-shisinau/index/spielbericht/4763064 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 100, in __call__
+    result = await middleware_instance.action()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 40, in action
+    self.output_context = await self.generator.__anext__()
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_abstract_http/_abstract_http_crawler.py", line 308, in _handle_status_code_response
+    self._raise_for_error_status_code(status_code)
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1561, in _raise_for_error_status_code
+    raise HttpClientStatusCodeError('Client error status code returned', status_code)
+crawlee.errors.HttpClientStatusCodeError: Client error status code returned (status code: 405).
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/fc-balti_fc-milsami-orhei/index/spielbericht/4763063 failed and reached maximum retries
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 100, in __call__
+    result = await middleware_instance.action()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 40, in action
+    self.output_context = await self.generator.__anext__()
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_abstract_http/_abstract_http_crawler.py", line 308, in _handle_status_code_response
+    self._raise_for_error_status_code(status_code)
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1561, in _raise_for_error_status_code
+    raise HttpClientStatusCodeError('Client error status code returned', status_code)
+crawlee.errors.HttpClientStatusCodeError: Client error status code returned (status code: 405).
+[90m[crawlee._autoscaling.autoscaled_pool][0m [32mINFO [0m Waiting for remaining tasks to finish
+[90m[ParselCrawler][0m [32mINFO [0m Error analysis: total_errors=62 unique_errors=1
+[90m[ParselCrawler][0m [32mINFO [0m Final request statistics:
+┌───────────────────────────────┬─────────┐
+│ requests_finished             │ 24      │
+│ requests_failed               │ 62      │
+│ retry_histogram               │ [86]    │
+│ request_avg_failed_duration   │ 22.7ms  │
+│ request_avg_finished_duration │ 767.7ms │
+│ requests_finished_per_minute  │ 361     │
+│ requests_failed_per_minute    │ 932     │
+│ request_total_duration        │ 19.83s  │
+│ requests_total                │ 86      │
+│ crawler_runtime               │ 3.99s   │
+└───────────────────────────────┴─────────┘
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/fc-petrocub-hincesti_fc-balti/index/spielbericht/4627129: Client error status code returned (status code: 405).
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/fc-petrocub-hincesti_fc-zimbru-chisinau/index/spielbericht/4635841: Client error status code returned (status code: 405).
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/fc-petrocub-hincesti_politehnica-utm-shisinau/index/spielbericht/4646884: Client error status code returned (status code: 405).
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/fc-milsami-orhei_fc-zimbru-chisinau/index/spielbericht/4627127: Client error status code returned (status code: 405).
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/fc-sheriff-tiraspol_csf-spartanii-sportul-selemet/index/spielbericht/4635840: Client error status code returned (status code: 405).
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/politehnica-utm-shisinau_dacia-buiucani/index/spielbericht/4660686: Client error status code returned (status code: 405).
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/csf-spartanii-sportul-selemet_fc-balti/index/spielbericht/4646886: Client error status code returned (status code: 405).
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/dacia-buiucani_fc-zimbru-chisinau/index/spielbericht/4646887: Client error status code returned (status code: 405).
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/fc-milsami-orhei_fc-petrocub-hincesti/index/spielbericht/4660687: Client error status code returned (status code: 405).
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/dacia-buiucani_csf-spartanii-sportul-selemet/index/spielbericht/4627126: Client error status code returned (status code: 405).
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/fc-petrocub-hincesti_fc-sheriff-tiraspol/index/spielbericht/4671508: Client error status code returned (status code: 405).
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/politehnica-utm-shisinau_fc-balti/index/spielbericht/4686405: Client error status code returned (status code: 405).
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/csf-spartanii-sportul-selemet_politehnica-utm-shisinau/index/spielbericht/4671507: Client error status code returned (status code: 405).
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/fc-petrocub-hincesti_dacia-buiucani/index/spielbericht/4686408: Client error status code returned (status code: 405).
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/csf-spartanii-sportul-selemet_fc-petrocub-hincesti/index/spielbericht/4695491: Client error status code returned (status code: 405).
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/fc-balti_fc-milsami-orhei/index/spielbericht/4695492: Client error status code returned (status code: 405).
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/csf-spartanii-sportul-selemet_dacia-buiucani/index/spielbericht/4703824: Client error status code returned (status code: 405).
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/fc-zimbru-chisinau_fc-milsami-orhei/index/spielbericht/4703827: Client error status code returned (status code: 405).
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/dacia-buiucani_fc-balti/index/spielbericht/4707733: Client error status code returned (status code: 405).
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/csf-spartanii-sportul-selemet_fc-sheriff-tiraspol/index/spielbericht/4707735: Client error status code returned (status code: 405).
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/fc-zimbru-chisinau_fc-petrocub-hincesti/index/spielbericht/4707734: Client error status code returned (status code: 405).
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/politehnica-utm-shisinau_fc-petrocub-hincesti/index/spielbericht/4712141: Client error status code returned (status code: 405).
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/csf-spartanii-sportul-selemet_fc-balti/index/spielbericht/4712143: Client error status code returned (status code: 405).
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/dacia-buiucani_politehnica-utm-shisinau/index/spielbericht/4716800: Client error status code returned (status code: 405).
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/fc-zimbru-chisinau_dacia-buiucani/index/spielbericht/4712142: Client error status code returned (status code: 405).
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/fc-balti_fc-sheriff-tiraspol/index/spielbericht/4716802: Client error status code returned (status code: 405).
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/fc-petrocub-hincesti_fc-milsami-orhei/index/spielbericht/4716803: Client error status code returned (status code: 405).
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/fc-zimbru-chisinau_fc-balti/index/spielbericht/4733637: Client error status code returned (status code: 405).
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/fc-sheriff-tiraspol_fc-milsami-orhei/index/spielbericht/4712144: Client error status code returned (status code: 405).
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/fc-milsami-orhei_dacia-buiucani/index/spielbericht/4733638: Client error status code returned (status code: 405).
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/politehnica-utm-shisinau_csf-spartanii-sportul-selemet/index/spielbericht/4733639: Client error status code returned (status code: 405).
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/csf-spartanii-sportul-selemet_fc-milsami-orhei/index/spielbericht/4733641: Client error status code returned (status code: 405).
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/fc-zimbru-chisinau_csf-spartanii-sportul-selemet/index/spielbericht/4716801: Client error status code returned (status code: 405).
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/fc-zimbru-chisinau_fc-sheriff-tiraspol/index/spielbericht/4733644: Client error status code returned (status code: 405).
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/fc-balti_politehnica-utm-shisinau/index/spielbericht/4733643: Client error status code returned (status code: 405).
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/fc-sheriff-tiraspol_dacia-buiucani/index/spielbericht/4733646: Client error status code returned (status code: 405).
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/fc-petrocub-hincesti_csf-spartanii-sportul-selemet/index/spielbericht/4733647: Client error status code returned (status code: 405).
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/fc-milsami-orhei_fc-balti/index/spielbericht/4733648: Client error status code returned (status code: 405).
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/politehnica-utm-shisinau_fc-sheriff-tiraspol/index/spielbericht/4735534: Client error status code returned (status code: 405).
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/fc-petrocub-hincesti_fc-balti/index/spielbericht/4735538: Client error status code returned (status code: 405).
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/dacia-buiucani_csf-spartanii-sportul-selemet/index/spielbericht/4735535: Client error status code returned (status code: 405).
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/fc-milsami-orhei_fc-zimbru-chisinau/index/spielbericht/4735539: Client error status code returned (status code: 405).
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/fc-balti_dacia-buiucani/index/spielbericht/4735540: Client error status code returned (status code: 405).
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/fc-zimbru-chisinau_fc-petrocub-hincesti/index/spielbericht/4735541: Client error status code returned (status code: 405).
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/dacia-buiucani_fc-zimbru-chisinau/index/spielbericht/4756635: Client error status code returned (status code: 405).
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/fc-sheriff-tiraspol_csf-spartanii-sportul-selemet/index/spielbericht/4735537: Client error status code returned (status code: 405).
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/csf-spartanii-sportul-selemet_fc-balti/index/spielbericht/4756634: Client error status code returned (status code: 405).
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/politehnica-utm-shisinau_dacia-buiucani/index/spielbericht/4760966: Client error status code returned (status code: 405).
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/fc-zimbru-chisinau_csf-spartanii-sportul-selemet/index/spielbericht/4760967: Client error status code returned (status code: 405).
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/fc-sheriff-tiraspol_fc-balti/index/spielbericht/4760968: Client error status code returned (status code: 405).
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/fc-milsami-orhei_fc-petrocub-hincesti/index/spielbericht/4760969: Client error status code returned (status code: 405).
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/dacia-buiucani_fc-milsami-orhei/index/spielbericht/4763053: Client error status code returned (status code: 405).
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/csf-spartanii-sportul-selemet_politehnica-utm-shisinau/index/spielbericht/4763055: Client error status code returned (status code: 405).
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/fc-balti_fc-zimbru-chisinau/index/spielbericht/4763056: Client error status code returned (status code: 405).
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/politehnica-utm-shisinau_fc-balti/index/spielbericht/4763057: Client error status code returned (status code: 405).
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/fc-petrocub-hincesti_dacia-buiucani/index/spielbericht/4763058: Client error status code returned (status code: 405).
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/fc-milsami-orhei_csf-spartanii-sportul-selemet/index/spielbericht/4763059: Client error status code returned (status code: 405).
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/fc-sheriff-tiraspol_fc-zimbru-chisinau/index/spielbericht/4763060: Client error status code returned (status code: 405).
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/dacia-buiucani_fc-sheriff-tiraspol/index/spielbericht/4763061: Client error status code returned (status code: 405).
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/csf-spartanii-sportul-selemet_fc-petrocub-hincesti/index/spielbericht/4763062: Client error status code returned (status code: 405).
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/fc-zimbru-chisinau_politehnica-utm-shisinau/index/spielbericht/4763064: Client error status code returned (status code: 405).
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/fc-balti_fc-milsami-orhei/index/spielbericht/4763063: Client error status code returned (status code: 405).
