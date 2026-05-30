@@ -13,7 +13,12 @@
 └───────────────────────────────┴──────┘
 [90m[ParselCrawler][0m [32mINFO [0m Crawled 0/1 pages, 0 failed requests, desired concurrency 10.
 [90m[crawlee._autoscaling.autoscaled_pool][0m [32mINFO [0m current_concurrency = 0; desired_concurrency = 10; cpu = 0; mem = 0; event_loop = 0.0; client_info = 0.0
-[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/singapore-premier-league/startseite/wettbewerb/SIN1/plus/0?saison_id=2025 failed and reached maximum retries
+[90m[ParselCrawler][0m [32mINFO [0m Crawled 29/86 pages, 0 failed requests, desired concurrency 10.
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/balestier-khalsa_hougang-united/index/spielbericht/4688257 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
+[90m[ParselCrawler][0m [32mINFO [0m Crawled 70/86 pages, 0 failed requests, desired concurrency 11.
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/balestier-khalsa_hougang-united/index/spielbericht/4688257 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/balestier-khalsa_hougang-united/index/spielbericht/4688257 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/balestier-khalsa_hougang-united/index/spielbericht/4688257 failed and reached maximum retries
  Traceback (most recent call last):
   File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 100, in __call__
     result = await middleware_instance.action()
@@ -23,22 +28,23 @@
                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_abstract_http/_abstract_http_crawler.py", line 308, in _handle_status_code_response
     self._raise_for_error_status_code(status_code)
-  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1561, in _raise_for_error_status_code
-    raise HttpClientStatusCodeError('Client error status code returned', status_code)
-crawlee.errors.HttpClientStatusCodeError: Client error status code returned (status code: 405).
+  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code
+    raise HttpStatusCodeError('Error status code returned', status_code)
+crawlee.errors.HttpStatusCodeError: Error status code returned (status code: 502).
+[90m[ParselCrawler][0m [32mINFO [0m Crawled 84/86 pages, 1 failed requests, desired concurrency 12.
 [90m[crawlee._autoscaling.autoscaled_pool][0m [32mINFO [0m Waiting for remaining tasks to finish
-[90m[ParselCrawler][0m [32mINFO [0m Error analysis: total_errors=1 unique_errors=1
+[90m[ParselCrawler][0m [32mINFO [0m Error analysis: total_errors=4 unique_errors=1
 [90m[ParselCrawler][0m [32mINFO [0m Final request statistics:
-┌───────────────────────────────┬─────────┐
-│ requests_finished             │ 0       │
-│ requests_failed               │ 1       │
-│ retry_histogram               │ [1]     │
-│ request_avg_failed_duration   │ 156.9ms │
-│ request_avg_finished_duration │ None    │
-│ requests_finished_per_minute  │ 0       │
-│ requests_failed_per_minute    │ 345     │
-│ request_total_duration        │ 156.9ms │
-│ requests_total                │ 1       │
-│ crawler_runtime               │ 173.9ms │
-└───────────────────────────────┴─────────┘
-[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/singapore-premier-league/startseite/wettbewerb/SIN1/plus/0?saison_id=2025: Client error status code returned (status code: 405).
+┌───────────────────────────────┬───────────────┐
+│ requests_finished             │ 85            │
+│ requests_failed               │ 1             │
+│ retry_histogram               │ [85, 0, 0, 1] │
+│ request_avg_failed_duration   │ 79.1ms        │
+│ request_avg_finished_duration │ 2.92s         │
+│ requests_finished_per_minute  │ 166           │
+│ requests_failed_per_minute    │ 1             │
+│ request_total_duration        │ 4min 8.3s     │
+│ requests_total                │ 86            │
+│ crawler_runtime               │ 30.66s        │
+└───────────────────────────────┴───────────────┘
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/balestier-khalsa_hougang-united/index/spielbericht/4688257: Error status code returned (status code: 502).
