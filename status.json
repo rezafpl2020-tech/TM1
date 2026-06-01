@@ -6,9 +6,9 @@
     "2009",
     "2007"
   ],
-  "last_month": "2026-05",
-  "last_run_at": "2026-05-31T06:52:27+00:00",
-  "last_run_minutes": 32,
+  "last_month": "2026-06",
+  "last_run_at": "2026-06-01T07:37:36+00:00",
+  "last_run_minutes": 39,
   "last_run_workflow": "scrape-daily",
-  "minutes_used_this_month": 1124
+  "minutes_used_this_month": 39
 }
