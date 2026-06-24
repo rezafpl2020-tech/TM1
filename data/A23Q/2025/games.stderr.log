@@ -46,12 +46,12 @@ crawlee.errors.SessionError: Assuming the session is blocked based on HTTP statu
 │ requests_finished             │ 0                              │
 │ requests_failed               │ 1                              │
 │ retry_histogram               │ [0, 0, 0, 0, 0, 0, 0, 0, 0, 1] │
-│ request_avg_failed_duration   │ 28.7ms                         │
+│ request_avg_failed_duration   │ 144.4ms                        │
 │ request_avg_finished_duration │ None                           │
 │ requests_finished_per_minute  │ 0                              │
-│ requests_failed_per_minute    │ 59                             │
-│ request_total_duration        │ 28.7ms                         │
+│ requests_failed_per_minute    │ 54                             │
+│ request_total_duration        │ 144.4ms                        │
 │ requests_total                │ 1                              │
-│ crawler_runtime               │ 1.00s                          │
+│ crawler_runtime               │ 1.11s                          │
 └───────────────────────────────┴────────────────────────────────┘
 [90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/afc-u23-asian-cup-qualification/startseite/pokalwettbewerb/A23Q?saison_id=2025: Assuming the session is blocked based on HTTP status code 403
