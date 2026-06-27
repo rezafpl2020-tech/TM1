@@ -46,12 +46,12 @@ crawlee.errors.SessionError: Assuming the session is blocked based on HTTP statu
 │ requests_finished             │ 0                              │
 │ requests_failed               │ 1                              │
 │ retry_histogram               │ [0, 0, 0, 0, 0, 0, 0, 0, 0, 1] │
-│ request_avg_failed_duration   │ 68.5ms                         │
+│ request_avg_failed_duration   │ 48.3ms                         │
 │ request_avg_finished_duration │ None                           │
 │ requests_finished_per_minute  │ 0                              │
-│ requests_failed_per_minute    │ 39                             │
-│ request_total_duration        │ 68.5ms                         │
+│ requests_failed_per_minute    │ 71                             │
+│ request_total_duration        │ 48.3ms                         │
 │ requests_total                │ 1                              │
-│ crawler_runtime               │ 1.53s                          │
+│ crawler_runtime               │ 840.2ms                        │
 └───────────────────────────────┴────────────────────────────────┘
 [90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/africa-u-20-cup-of-nations/startseite/pokalwettbewerb/20AC?saison_id=2025: Assuming the session is blocked based on HTTP status code 403
