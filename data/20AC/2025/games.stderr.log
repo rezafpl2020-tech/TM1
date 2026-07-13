@@ -22,7 +22,7 @@
 [90m[ParselCrawler][0m [33mWARN [0m Encountered "crawlee.errors.SessionError: Assuming the session is blocked based on HTTP status code 403", rotating session and retrying...
 [90m[ParselCrawler][0m [33mWARN [0m Encountered "crawlee.errors.SessionError: Assuming the session is blocked based on HTTP status code 403", rotating session and retrying...
 [90m[ParselCrawler][0m [33mWARN [0m Encountered "crawlee.errors.SessionError: Assuming the session is blocked based on HTTP status code 403", rotating session and retrying...
-[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/afc-challenge-cup-qualifikation-2014-/startseite/pokalwettbewerb/ACCQ?saison_id=2025 failed and reached maximum retries
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/africa-u-20-cup-of-nations/startseite/pokalwettbewerb/20AC?saison_id=2025 failed and reached maximum retries
  Traceback (most recent call last):
   File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1449, in __run_task_function
     await self._run_request_handler(context=context)
@@ -46,12 +46,12 @@ crawlee.errors.SessionError: Assuming the session is blocked based on HTTP statu
 │ requests_finished             │ 0                              │
 │ requests_failed               │ 1                              │
 │ retry_histogram               │ [0, 0, 0, 0, 0, 0, 0, 0, 0, 1] │
-│ request_avg_failed_duration   │ 89.1ms                         │
+│ request_avg_failed_duration   │ 136.5ms                        │
 │ request_avg_finished_duration │ None                           │
 │ requests_finished_per_minute  │ 0                              │
-│ requests_failed_per_minute    │ 73                             │
-│ request_total_duration        │ 89.1ms                         │
+│ requests_failed_per_minute    │ 41                             │
+│ request_total_duration        │ 136.5ms                        │
 │ requests_total                │ 1                              │
-│ crawler_runtime               │ 813.9ms                        │
+│ crawler_runtime               │ 1.43s                          │
 └───────────────────────────────┴────────────────────────────────┘
-[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/afc-challenge-cup-qualifikation-2014-/startseite/pokalwettbewerb/ACCQ?saison_id=2025: Assuming the session is blocked based on HTTP status code 403
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/africa-u-20-cup-of-nations/startseite/pokalwettbewerb/20AC?saison_id=2025: Assuming the session is blocked based on HTTP status code 403
