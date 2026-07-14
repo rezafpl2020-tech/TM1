@@ -14,120 +14,59 @@
 [90m[ParselCrawler][0m [32mINFO [0m Crawled 0/1 pages, 0 failed requests, desired concurrency 10.
 [90m[crawlee._autoscaling.autoscaled_pool][0m [32mINFO [0m current_concurrency = 0; desired_concurrency = 10; cpu = 0; mem = 0; event_loop = 0.0; client_info = 0.0
 [90m[ParselCrawler][0m [32mINFO [0m Crawled 0/1 pages, 0 failed requests, desired concurrency 10.
-[90m[ParselCrawler][0m [32mINFO [0m Crawled 1/2 pages, 0 failed requests, desired concurrency 10.
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/malaga-cf_sd-eibar/index/spielbericht/4647337 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/granada-cf_deportivo-de-la-coruna/index/spielbericht/4647336 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/racing-santander_cd-castellon/index/spielbericht/4647344 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [32mINFO [0m Crawled 11/464 pages, 0 failed requests, desired concurrency 10.
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/cordoba-cf_ud-las-palmas/index/spielbericht/4647331 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/sporting-gijon_cordoba-cf/index/spielbericht/4647335 due to: Error status code returned (status code: 504).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/real-sociedad-b_real-zaragoza/index/spielbericht/4647342 due to: Error status code returned (status code: 504).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/ud-las-palmas_fc-andorra/index/spielbericht/4647338 due to: Error status code returned (status code: 504).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/ad-ceuta-fc_sporting-gijon/index/spielbericht/4647330 due to: Error status code returned (status code: 504).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [32mINFO [0m Crawled 21/464 pages, 0 failed requests, desired concurrency 11.
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/sd-huesca_cd-leganes/index/spielbericht/4647341 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/sd-huesca_malaga-cf/index/spielbericht/4647398 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/granada-cf_cd-leganes/index/spielbericht/4647397 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/fc-andorra_cd-mirandes/index/spielbericht/4647449 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [32mINFO [0m Crawled 39/464 pages, 0 failed requests, desired concurrency 12.
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/malaga-cf_cadiz-cf/index/spielbericht/4647450 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/cordoba-cf_racing-santander/index/spielbericht/4647455 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/ud-las-palmas_ud-almeria/index/spielbericht/4647407 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/real-sociedad-b_cordoba-cf/index/spielbericht/4647403 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/burgos-cf_malaga-cf/index/spielbericht/4647409 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/cadiz-cf_ad-ceuta-fc/index/spielbericht/4647410 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/sd-huesca_granada-cf/index/spielbericht/4647405 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/real-valladolid-cf_cd-mirandes/index/spielbericht/4647364 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
+[90m[ParselCrawler][0m [32mINFO [0m Crawled 2/464 pages, 0 failed requests, desired concurrency 10.
+[90m[ParselCrawler][0m [32mINFO [0m Crawled 42/464 pages, 0 failed requests, desired concurrency 11.
+[90m[ParselCrawler][0m [32mINFO [0m Crawled 72/464 pages, 0 failed requests, desired concurrency 12.
+[90m[ParselCrawler][0m [32mINFO [0m Crawled 105/464 pages, 0 failed requests, desired concurrency 13.
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/cultural-leonesa_cd-mirandes/index/spielbericht/4647425 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/sporting-gijon_ud-las-palmas/index/spielbericht/4647433 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
 [90m[ParselCrawler][0m [32mINFO [0m Current request statistics:
 ┌───────────────────────────────┬────────────┐
-│ requests_finished             │ 58         │
+│ requests_finished             │ 120        │
 │ requests_failed               │ 0          │
-│ retry_histogram               │ [58]       │
+│ retry_histogram               │ [120]      │
 │ request_avg_failed_duration   │ None       │
-│ request_avg_finished_duration │ 4.87s      │
-│ requests_finished_per_minute  │ 58         │
+│ request_avg_finished_duration │ 3.69s      │
+│ requests_finished_per_minute  │ 120        │
 │ requests_failed_per_minute    │ 0          │
-│ request_total_duration        │ 4min 42.2s │
-│ requests_total                │ 58         │
+│ request_total_duration        │ 7min 23.3s │
+│ requests_total                │ 120        │
 │ crawler_runtime               │ 59.99s     │
 └───────────────────────────────┴────────────┘
-[90m[crawlee._autoscaling.autoscaled_pool][0m [32mINFO [0m current_concurrency = 13; desired_concurrency = 13; cpu = 0.0; mem = 0.0; event_loop = 0.0; client_info = 0.0
-[90m[ParselCrawler][0m [32mINFO [0m Crawled 58/464 pages, 0 failed requests, desired concurrency 13.
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/cd-mirandes_cd-leganes/index/spielbericht/4647351 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/ud-almeria_real-zaragoza/index/spielbericht/4647348 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/cordoba-cf_cultural-leonesa/index/spielbericht/4647346 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/real-valladolid-cf_sporting-gijon/index/spielbericht/4647419 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [32mINFO [0m Crawled 75/464 pages, 0 failed requests, desired concurrency 14.
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/real-valladolid-cf_granada-cf/index/spielbericht/4647432 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/real-sociedad-b_fc-andorra/index/spielbericht/4647353 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/sd-huesca_fc-andorra/index/spielbericht/4647456 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [32mINFO [0m Crawled 97/464 pages, 0 failed requests, desired concurrency 15.
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/burgos-cf_real-sociedad-b/index/spielbericht/4647380 due to: Error status code returned (status code: 504).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/ad-ceuta-fc_cd-leganes/index/spielbericht/4647492 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/ud-las-palmas_albacete-balompie/index/spielbericht/4647508 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/albacete-balompie_sd-huesca/index/spielbericht/4647423 due to: Error status code returned (status code: 504).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/real-zaragoza_fc-andorra/index/spielbericht/4647327 due to: . ,  File "/usr/local/lib/python3.12/site-packages/crawlee/http_clients/_impit.py", line 133, in crawl,     response = await client.request(
-[90m[ParselCrawler][0m [32mINFO [0m Crawled 155/464 pages, 0 failed requests, desired concurrency 16.
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/malaga-cf_cordoba-cf/index/spielbericht/4647464 due to: Error status code returned (status code: 504).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [32mINFO [0m Crawled 229/464 pages, 0 failed requests, desired concurrency 17.
-[90m[ParselCrawler][0m [32mINFO [0m Crawled 291/464 pages, 0 failed requests, desired concurrency 18.
+[90m[crawlee._autoscaling.autoscaled_pool][0m [32mINFO [0m current_concurrency = 14; desired_concurrency = 14; cpu = 0.0; mem = 0.0; event_loop = 0.0; client_info = 0.0
+[90m[ParselCrawler][0m [32mINFO [0m Crawled 120/464 pages, 0 failed requests, desired concurrency 14.
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/fc-andorra_cd-castellon/index/spielbericht/4647506 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
+[90m[ParselCrawler][0m [32mINFO [0m Crawled 143/464 pages, 0 failed requests, desired concurrency 15.
+[90m[ParselCrawler][0m [32mINFO [0m Crawled 183/464 pages, 0 failed requests, desired concurrency 16.
+[90m[ParselCrawler][0m [32mINFO [0m Crawled 234/464 pages, 0 failed requests, desired concurrency 17.
+[90m[ParselCrawler][0m [32mINFO [0m Crawled 279/464 pages, 0 failed requests, desired concurrency 18.
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/cd-castellon_racing-santander/index/spielbericht/4647699 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/cultural-leonesa_ud-las-palmas/index/spielbericht/4647701 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/cadiz-cf_real-zaragoza/index/spielbericht/4647633 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/real-sociedad-b_cd-castellon/index/spielbericht/4647639 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/cordoba-cf_fc-andorra/index/spielbericht/4647708 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
+[90m[ParselCrawler][0m [32mINFO [0m Crawled 312/464 pages, 0 failed requests, desired concurrency 19.
 [90m[ParselCrawler][0m [32mINFO [0m Current request statistics:
 ┌───────────────────────────────┬─────────────┐
-│ requests_finished             │ 329         │
+│ requests_finished             │ 360         │
 │ requests_failed               │ 0           │
-│ retry_histogram               │ [329]       │
+│ retry_histogram               │ [360]       │
 │ request_avg_failed_duration   │ None        │
-│ request_avg_finished_duration │ 3.57s       │
-│ requests_finished_per_minute  │ 165         │
+│ request_avg_finished_duration │ 4.21s       │
+│ requests_finished_per_minute  │ 180         │
 │ requests_failed_per_minute    │ 0           │
-│ request_total_duration        │ 19min 33.5s │
-│ requests_total                │ 329         │
+│ request_total_duration        │ 25min 14.5s │
+│ requests_total                │ 360         │
 │ crawler_runtime               │ 1min 60.0s  │
 └───────────────────────────────┴─────────────┘
-[90m[crawlee._autoscaling.autoscaled_pool][0m [32mINFO [0m current_concurrency = 19; desired_concurrency = 19; cpu = 0.0; mem = 0.0; event_loop = 0.0; client_info = 0.0
-[90m[ParselCrawler][0m [32mINFO [0m Crawled 329/464 pages, 0 failed requests, desired concurrency 19.
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/real-sociedad-b_racing-santander/index/spielbericht/4647681 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/ud-las-palmas_cd-leganes/index/spielbericht/4647680 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/deportivo-de-la-coruna_cd-mirandes/index/spielbericht/4647683 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/burgos-cf_deportivo-de-la-coruna/index/spielbericht/4647650 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/cadiz-cf_ud-las-palmas/index/spielbericht/4647651 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/fc-andorra_albacete-balompie/index/spielbericht/4647743 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [32mINFO [0m Crawled 357/464 pages, 0 failed requests, desired concurrency 20.
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/malaga-cf_sporting-gijon/index/spielbericht/4647732 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/cordoba-cf_granada-cf/index/spielbericht/4647740 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/fc-andorra_ud-las-palmas/index/spielbericht/4647734 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/malaga-cf_sd-huesca/index/spielbericht/4647618 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/racing-santander_real-valladolid-cf/index/spielbericht/4647783 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/fc-andorra_ad-ceuta-fc/index/spielbericht/4647755 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/albacete-balompie_real-sociedad-b/index/spielbericht/4647762 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/ud-las-palmas_real-zaragoza/index/spielbericht/4647753 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [32mINFO [0m Crawled 380/464 pages, 0 failed requests, desired concurrency 21.
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/sd-huesca_cd-castellon/index/spielbericht/4647757 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/real-valladolid-cf_deportivo-de-la-coruna/index/spielbericht/4647759 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/deportivo-de-la-coruna_ud-las-palmas/index/spielbericht/4647765 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/granada-cf_sporting-gijon/index/spielbericht/4647766 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/ud-almeria_real-valladolid-cf/index/spielbericht/4647768 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/real-zaragoza_granada-cf/index/spielbericht/4647747 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/sporting-gijon_cordoba-cf/index/spielbericht/4647335 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/ad-ceuta-fc_malaga-cf/index/spielbericht/4647782 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/fc-andorra_cd-mirandes/index/spielbericht/4647449 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/cordoba-cf_racing-santander/index/spielbericht/4647455 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/real-sociedad-b_fc-andorra/index/spielbericht/4647353 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/sd-huesca_fc-andorra/index/spielbericht/4647456 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/albacete-balompie_sd-huesca/index/spielbericht/4647423 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/real-sociedad-b_racing-santander/index/spielbericht/4647681 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/ud-las-palmas_cd-leganes/index/spielbericht/4647680 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [32mINFO [0m Crawled 423/464 pages, 0 failed requests, desired concurrency 23.
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/ad-ceuta-fc_malaga-cf/index/spielbericht/4647782 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/fc-andorra_cd-mirandes/index/spielbericht/4647449 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/cordoba-cf_racing-santander/index/spielbericht/4647455 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/sd-huesca_fc-andorra/index/spielbericht/4647456 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/real-sociedad-b_fc-andorra/index/spielbericht/4647353 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/albacete-balompie_sd-huesca/index/spielbericht/4647423 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/real-sociedad-b_racing-santander/index/spielbericht/4647681 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/ud-las-palmas_cd-leganes/index/spielbericht/4647680 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/ad-ceuta-fc_malaga-cf/index/spielbericht/4647782 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/sd-huesca_fc-andorra/index/spielbericht/4647456 failed and reached maximum retries
+[90m[crawlee._autoscaling.autoscaled_pool][0m [32mINFO [0m current_concurrency = 20; desired_concurrency = 20; cpu = 0.0; mem = 0.0; event_loop = 0.0; client_info = 0.0
+[90m[ParselCrawler][0m [32mINFO [0m Crawled 360/464 pages, 0 failed requests, desired concurrency 20.
+[90m[ParselCrawler][0m [32mINFO [0m Crawled 412/464 pages, 0 failed requests, desired concurrency 21.
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/real-sociedad-b_burgos-cf/index/spielbericht/4647744 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/real-sociedad-b_burgos-cf/index/spielbericht/4647744 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/real-sociedad-b_burgos-cf/index/spielbericht/4647744 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
+[90m[ParselCrawler][0m [32mINFO [0m Crawled 452/464 pages, 0 failed requests, desired concurrency 23.
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/real-sociedad-b_burgos-cf/index/spielbericht/4647744 failed and reached maximum retries
  Traceback (most recent call last):
   File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 100, in __call__
     result = await middleware_instance.action()
@@ -140,157 +79,39 @@
   File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code
     raise HttpStatusCodeError('Error status code returned', status_code)
 crawlee.errors.HttpStatusCodeError: Error status code returned (status code: 502).
-[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/cordoba-cf_racing-santander/index/spielbericht/4647455 failed and reached maximum retries
- Traceback (most recent call last):
-  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 100, in __call__
-    result = await middleware_instance.action()
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 40, in action
-    self.output_context = await self.generator.__anext__()
-                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_abstract_http/_abstract_http_crawler.py", line 308, in _handle_status_code_response
-    self._raise_for_error_status_code(status_code)
-  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code
-    raise HttpStatusCodeError('Error status code returned', status_code)
-crawlee.errors.HttpStatusCodeError: Error status code returned (status code: 502).
-[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/fc-andorra_cd-mirandes/index/spielbericht/4647449 failed and reached maximum retries
- Traceback (most recent call last):
-  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 100, in __call__
-    result = await middleware_instance.action()
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 40, in action
-    self.output_context = await self.generator.__anext__()
-                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_abstract_http/_abstract_http_crawler.py", line 308, in _handle_status_code_response
-    self._raise_for_error_status_code(status_code)
-  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code
-    raise HttpStatusCodeError('Error status code returned', status_code)
-crawlee.errors.HttpStatusCodeError: Error status code returned (status code: 502).
-[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/real-sociedad-b_fc-andorra/index/spielbericht/4647353 failed and reached maximum retries
- Traceback (most recent call last):
-  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 100, in __call__
-    result = await middleware_instance.action()
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 40, in action
-    self.output_context = await self.generator.__anext__()
-                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_abstract_http/_abstract_http_crawler.py", line 308, in _handle_status_code_response
-    self._raise_for_error_status_code(status_code)
-  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code
-    raise HttpStatusCodeError('Error status code returned', status_code)
-crawlee.errors.HttpStatusCodeError: Error status code returned (status code: 502).
-[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/real-sociedad-b_racing-santander/index/spielbericht/4647681 failed and reached maximum retries
- Traceback (most recent call last):
-  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 100, in __call__
-    result = await middleware_instance.action()
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 40, in action
-    self.output_context = await self.generator.__anext__()
-                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_abstract_http/_abstract_http_crawler.py", line 308, in _handle_status_code_response
-    self._raise_for_error_status_code(status_code)
-  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code
-    raise HttpStatusCodeError('Error status code returned', status_code)
-crawlee.errors.HttpStatusCodeError: Error status code returned (status code: 502).
-[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/albacete-balompie_sd-huesca/index/spielbericht/4647423 failed and reached maximum retries
- Traceback (most recent call last):
-  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 100, in __call__
-    result = await middleware_instance.action()
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 40, in action
-    self.output_context = await self.generator.__anext__()
-                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_abstract_http/_abstract_http_crawler.py", line 308, in _handle_status_code_response
-    self._raise_for_error_status_code(status_code)
-  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code
-    raise HttpStatusCodeError('Error status code returned', status_code)
-crawlee.errors.HttpStatusCodeError: Error status code returned (status code: 502).
-[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/ud-las-palmas_cd-leganes/index/spielbericht/4647680 failed and reached maximum retries
- Traceback (most recent call last):
-  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 100, in __call__
-    result = await middleware_instance.action()
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 40, in action
-    self.output_context = await self.generator.__anext__()
-                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_abstract_http/_abstract_http_crawler.py", line 308, in _handle_status_code_response
-    self._raise_for_error_status_code(status_code)
-  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code
-    raise HttpStatusCodeError('Error status code returned', status_code)
-crawlee.errors.HttpStatusCodeError: Error status code returned (status code: 502).
-[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/ad-ceuta-fc_malaga-cf/index/spielbericht/4647782 failed and reached maximum retries
- Traceback (most recent call last):
-  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 100, in __call__
-    result = await middleware_instance.action()
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 40, in action
-    self.output_context = await self.generator.__anext__()
-                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_abstract_http/_abstract_http_crawler.py", line 308, in _handle_status_code_response
-    self._raise_for_error_status_code(status_code)
-  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code
-    raise HttpStatusCodeError('Error status code returned', status_code)
-crawlee.errors.HttpStatusCodeError: Error status code returned (status code: 502).
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/granada-cf_sporting-gijon/index/spielbericht/4647766 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/granada-cf_sporting-gijon/index/spielbericht/4647766 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/granada-cf_sporting-gijon/index/spielbericht/4647766 failed and reached maximum retries
- Traceback (most recent call last):
-  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 100, in __call__
-    result = await middleware_instance.action()
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 40, in action
-    self.output_context = await self.generator.__anext__()
-                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_abstract_http/_abstract_http_crawler.py", line 308, in _handle_status_code_response
-    self._raise_for_error_status_code(status_code)
-  File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code
-    raise HttpStatusCodeError('Error status code returned', status_code)
-crawlee.errors.HttpStatusCodeError: Error status code returned (status code: 502).
-[90m[ParselCrawler][0m [32mINFO [0m Crawled 445/464 pages, 9 failed requests, desired concurrency 25.
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/ad-ceuta-fc_deportivo-de-la-coruna/index/spielbericht/4647612 due to: . ,  File "/usr/local/lib/python3.12/site-packages/crawlee/http_clients/_impit.py", line 133, in crawl,     response = await client.request(
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/burgos-cf_cordoba-cf/index/spielbericht/4647657 due to: . ,  File "/usr/local/lib/python3.12/site-packages/crawlee/http_clients/_impit.py", line 133, in crawl,     response = await client.request(
-[90m[ParselCrawler][0m [32mINFO [0m Crawled 449/464 pages, 9 failed requests, desired concurrency 25.
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/albacete-balompie_cd-castellon/index/spielbericht/4647624 due to: . ,  File "/usr/local/lib/python3.12/site-packages/crawlee/http_clients/_impit.py", line 133, in crawl,     response = await client.request(
+[90m[ParselCrawler][0m [32mINFO [0m Crawled 462/464 pages, 1 failed requests, desired concurrency 23.
+[90m[ParselCrawler][0m [32mINFO [0m Crawled 462/464 pages, 1 failed requests, desired concurrency 23.
+[90m[ParselCrawler][0m [32mINFO [0m Crawled 462/464 pages, 1 failed requests, desired concurrency 23.
 [90m[ParselCrawler][0m [32mINFO [0m Current request statistics:
-┌───────────────────────────────┬─────────────────┐
-│ requests_finished             │ 453             │
-│ requests_failed               │ 9               │
-│ retry_histogram               │ [407, 45, 1, 9] │
-│ request_avg_failed_duration   │ 197.1ms         │
-│ request_avg_finished_duration │ 4.12s           │
-│ requests_finished_per_minute  │ 151             │
-│ requests_failed_per_minute    │ 3               │
-│ request_total_duration        │ 31min 9.5s      │
-│ requests_total                │ 462             │
-│ crawler_runtime               │ 2min 60.0s      │
-└───────────────────────────────┴─────────────────┘
-[90m[crawlee._autoscaling.autoscaled_pool][0m [32mINFO [0m current_concurrency = 12; desired_concurrency = 25; cpu = 0.0; mem = 0.0; event_loop = 0.0; client_info = 0.0
-[90m[ParselCrawler][0m [32mINFO [0m Crawled 453/464 pages, 9 failed requests, desired concurrency 25.
-[90m[ParselCrawler][0m [32mINFO [0m Crawled 454/464 pages, 9 failed requests, desired concurrency 25.
-[90m[ParselCrawler][0m [32mINFO [0m Crawled 454/464 pages, 9 failed requests, desired concurrency 27.
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/racing-santander_real-valladolid-cf/index/spielbericht/4647783 due to: . ,  File "/usr/local/lib/python3.12/site-packages/crawlee/http_clients/_impit.py", line 133, in crawl,     response = await client.request(
-[90m[ParselCrawler][0m [32mINFO [0m Crawled 454/464 pages, 9 failed requests, desired concurrency 27.
+┌───────────────────────────────┬────────────────┐
+│ requests_finished             │ 462            │
+│ requests_failed               │ 1              │
+│ retry_histogram               │ [454, 8, 0, 1] │
+│ request_avg_failed_duration   │ 1.40s          │
+│ request_avg_finished_duration │ 4.26s          │
+│ requests_finished_per_minute  │ 154            │
+│ requests_failed_per_minute    │ 0              │
+│ request_total_duration        │ 32min 47.7s    │
+│ requests_total                │ 463            │
+│ crawler_runtime               │ 2min 60.0s     │
+└───────────────────────────────┴────────────────┘
+[90m[crawlee._autoscaling.autoscaled_pool][0m [32mINFO [0m current_concurrency = 11; desired_concurrency = 23; cpu = 0.0; mem = 0.0; event_loop = 0.0; client_info = 0.0
+[90m[ParselCrawler][0m [32mINFO [0m Crawled 462/464 pages, 1 failed requests, desired concurrency 23.
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/cd-leganes_racing-santander/index/spielbericht/4647731 due to: . ,  File "/usr/local/lib/python3.12/site-packages/crawlee/http_clients/_impit.py", line 133, in crawl,     response = await client.request(
+[90m[ParselCrawler][0m [32mINFO [0m Crawled 462/464 pages, 1 failed requests, desired concurrency 23.
 [90m[crawlee._autoscaling.autoscaled_pool][0m [32mINFO [0m Waiting for remaining tasks to finish
-[90m[ParselCrawler][0m [32mINFO [0m Error analysis: total_errors=86 unique_errors=2
+[90m[ParselCrawler][0m [32mINFO [0m Error analysis: total_errors=13 unique_errors=2
 [90m[ParselCrawler][0m [32mINFO [0m Final request statistics:
-┌───────────────────────────────┬─────────────────┐
-│ requests_finished             │ 455             │
-│ requests_failed               │ 9               │
-│ retry_histogram               │ [407, 46, 2, 9] │
-│ request_avg_failed_duration   │ 197.1ms         │
-│ request_avg_finished_duration │ 4.20s           │
-│ requests_finished_per_minute  │ 125             │
-│ requests_failed_per_minute    │ 2               │
-│ request_total_duration        │ 31min 51.7s     │
-│ requests_total                │ 464             │
-│ crawler_runtime               │ 3min 38.2s      │
-└───────────────────────────────┴─────────────────┘
-[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/sd-huesca_fc-andorra/index/spielbericht/4647456: Error status code returned (status code: 502).
-[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/cordoba-cf_racing-santander/index/spielbericht/4647455: Error status code returned (status code: 502).
-[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/fc-andorra_cd-mirandes/index/spielbericht/4647449: Error status code returned (status code: 502).
-[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/real-sociedad-b_fc-andorra/index/spielbericht/4647353: Error status code returned (status code: 502).
-[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/real-sociedad-b_racing-santander/index/spielbericht/4647681: Error status code returned (status code: 502).
-[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/albacete-balompie_sd-huesca/index/spielbericht/4647423: Error status code returned (status code: 502).
-[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/ud-las-palmas_cd-leganes/index/spielbericht/4647680: Error status code returned (status code: 502).
-[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/ad-ceuta-fc_malaga-cf/index/spielbericht/4647782: Error status code returned (status code: 502).
-[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/granada-cf_sporting-gijon/index/spielbericht/4647766: Error status code returned (status code: 502).
+┌───────────────────────────────┬────────────────┐
+│ requests_finished             │ 463            │
+│ requests_failed               │ 1              │
+│ retry_histogram               │ [454, 9, 0, 1] │
+│ request_avg_failed_duration   │ 1.40s          │
+│ request_avg_finished_duration │ 4.25s          │
+│ requests_finished_per_minute  │ 144            │
+│ requests_failed_per_minute    │ 0              │
+│ request_total_duration        │ 32min 50.6s    │
+│ requests_total                │ 464            │
+│ crawler_runtime               │ 3min 12.5s     │
+└───────────────────────────────┴────────────────┘
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/real-sociedad-b_burgos-cf/index/spielbericht/4647744: Error status code returned (status code: 502).

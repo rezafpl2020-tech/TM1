@@ -13,11 +13,10 @@
 └───────────────────────────────┴──────┘
 [90m[ParselCrawler][0m [32mINFO [0m Crawled 0/1 pages, 0 failed requests, desired concurrency 10.
 [90m[crawlee._autoscaling.autoscaled_pool][0m [32mINFO [0m current_concurrency = 0; desired_concurrency = 10; cpu = 0; mem = 0; event_loop = 0.0; client_info = 0.0
-[90m[ParselCrawler][0m [32mINFO [0m Crawled 0/1 pages, 0 failed requests, desired concurrency 10.
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/liga-2/startseite/wettbewerb/PER2?saison_id=2025 due to: Error status code returned (status code: 504).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/liga-2/startseite/wettbewerb/PER2?saison_id=2025 due to: Error status code returned (status code: 504).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/liga-2/startseite/wettbewerb/PER2?saison_id=2025 due to: Error status code returned (status code: 504).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/liga-2/startseite/wettbewerb/PER2?saison_id=2025 failed and reached maximum retries
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/uncaf-nations-cup-qualifikation/startseite/pokalwettbewerb/CEQ?saison_id=2025 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/uncaf-nations-cup-qualifikation/startseite/pokalwettbewerb/CEQ?saison_id=2025 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/uncaf-nations-cup-qualifikation/startseite/pokalwettbewerb/CEQ?saison_id=2025 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/uncaf-nations-cup-qualifikation/startseite/pokalwettbewerb/CEQ?saison_id=2025 failed and reached maximum retries
  Traceback (most recent call last):
   File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 100, in __call__
     result = await middleware_instance.action()
@@ -29,7 +28,7 @@
     self._raise_for_error_status_code(status_code)
   File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code
     raise HttpStatusCodeError('Error status code returned', status_code)
-crawlee.errors.HttpStatusCodeError: Error status code returned (status code: 504).
+crawlee.errors.HttpStatusCodeError: Error status code returned (status code: 502).
 [90m[crawlee._autoscaling.autoscaled_pool][0m [32mINFO [0m Waiting for remaining tasks to finish
 [90m[ParselCrawler][0m [32mINFO [0m Error analysis: total_errors=4 unique_errors=1
 [90m[ParselCrawler][0m [32mINFO [0m Final request statistics:
@@ -37,12 +36,12 @@ crawlee.errors.HttpStatusCodeError: Error status code returned (status code: 504
 │ requests_finished             │ 0            │
 │ requests_failed               │ 1            │
 │ retry_histogram               │ [0, 0, 0, 1] │
-│ request_avg_failed_duration   │ 107.7ms      │
+│ request_avg_failed_duration   │ 108.1ms      │
 │ request_avg_finished_duration │ None         │
 │ requests_finished_per_minute  │ 0            │
-│ requests_failed_per_minute    │ 5            │
-│ request_total_duration        │ 107.7ms      │
+│ requests_failed_per_minute    │ 72           │
+│ request_total_duration        │ 108.1ms      │
 │ requests_total                │ 1            │
-│ crawler_runtime               │ 10.65s       │
+│ crawler_runtime               │ 823.1ms      │
 └───────────────────────────────┴──────────────┘
-[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/liga-2/startseite/wettbewerb/PER2?saison_id=2025: Error status code returned (status code: 504).
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/uncaf-nations-cup-qualifikation/startseite/pokalwettbewerb/CEQ?saison_id=2025: Error status code returned (status code: 502).

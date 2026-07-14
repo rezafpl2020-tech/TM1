@@ -13,48 +13,33 @@
 └───────────────────────────────┴──────┘
 [90m[ParselCrawler][0m [32mINFO [0m Crawled 0/1 pages, 0 failed requests, desired concurrency 10.
 [90m[crawlee._autoscaling.autoscaled_pool][0m [32mINFO [0m current_concurrency = 0; desired_concurrency = 10; cpu = 0; mem = 0; event_loop = 0.0; client_info = 0.0
-[90m[ParselCrawler][0m [32mINFO [0m Crawled 1/2 pages, 0 failed requests, desired concurrency 10.
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/st-josephs-fc_fc-college-1975/index/spielbericht/4696531 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/lynx-fc_lions-gibraltar-fc/index/spielbericht/4696528 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/glacis-united_europa-point-fc/index/spielbericht/4694990 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/fc-college-1975_glacis-united/index/spielbericht/4696543 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [32mINFO [0m Crawled 8/134 pages, 0 failed requests, desired concurrency 10.
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/europa-fc_lions-gibraltar-fc/index/spielbericht/4694986 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/fc-college-1975_fc-brunos-magpies/index/spielbericht/4694987 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/europa-point-fc_lynx-fc/index/spielbericht/4696559 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/fc-hound-dogs_lynx-fc/index/spielbericht/4694989 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/mons-calpe-sc_europa-fc/index/spielbericht/4696527 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/lincoln-red-imps-fc_st-josephs-fc/index/spielbericht/4694985 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [32mINFO [0m Crawled 23/134 pages, 0 failed requests, desired concurrency 11.
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/europa-point-fc_glacis-united/index/spielbericht/4698187 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [32mINFO [0m Crawled 60/134 pages, 0 failed requests, desired concurrency 12.
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/lynx-fc_europa-fc/index/spielbericht/4698199 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/st-josephs-fc_manchester-62-fc/index/spielbericht/4698202 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/glacis-united_lynx-fc/index/spielbericht/4696621 due to: Error status code returned (status code: 504).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [32mINFO [0m Crawled 84/134 pages, 0 failed requests, desired concurrency 13.
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/mons-calpe-sc_st-josephs-fc/index/spielbericht/4698203 due to: Error status code returned (status code: 504).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/st-josephs-fc_fc-brunos-magpies/index/spielbericht/4698210 due to: Error status code returned (status code: 504).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/fc-hound-dogs_glacis-united/index/spielbericht/4698236 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
+[90m[ParselCrawler][0m [32mINFO [0m Crawled 0/1 pages, 0 failed requests, desired concurrency 10.
+[90m[ParselCrawler][0m [32mINFO [0m Crawled 0/1 pages, 0 failed requests, desired concurrency 11.
+[90m[ParselCrawler][0m [32mINFO [0m Crawled 0/1 pages, 0 failed requests, desired concurrency 11.
+[90m[ParselCrawler][0m [32mINFO [0m Crawled 0/1 pages, 0 failed requests, desired concurrency 12.
+[90m[ParselCrawler][0m [32mINFO [0m Crawled 16/134 pages, 0 failed requests, desired concurrency 12.
 [90m[ParselCrawler][0m [32mINFO [0m Current request statistics:
 ┌───────────────────────────────┬────────────┐
-│ requests_finished             │ 103        │
+│ requests_finished             │ 53         │
 │ requests_failed               │ 0          │
-│ retry_histogram               │ [103]      │
+│ retry_histogram               │ [53]       │
 │ request_avg_failed_duration   │ None       │
-│ request_avg_finished_duration │ 3.40s      │
-│ requests_finished_per_minute  │ 103        │
+│ request_avg_finished_duration │ 3.91s      │
+│ requests_finished_per_minute  │ 53         │
 │ requests_failed_per_minute    │ 0          │
-│ request_total_duration        │ 5min 49.8s │
-│ requests_total                │ 103        │
+│ request_total_duration        │ 3min 27.1s │
+│ requests_total                │ 53         │
 │ crawler_runtime               │ 59.99s     │
 └───────────────────────────────┴────────────┘
-[90m[crawlee._autoscaling.autoscaled_pool][0m [32mINFO [0m current_concurrency = 14; desired_concurrency = 14; cpu = 0.0; mem = 0.0; event_loop = 0.0; client_info = 0.0
-[90m[ParselCrawler][0m [32mINFO [0m Crawled 103/134 pages, 0 failed requests, desired concurrency 14.
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/europa-fc_fc-brunos-magpies/index/spielbericht/4698205 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/europa-fc_fc-brunos-magpies/index/spielbericht/4698205 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/europa-fc_fc-brunos-magpies/index/spielbericht/4698205 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
-[90m[ParselCrawler][0m [32mINFO [0m Crawled 130/134 pages, 0 failed requests, desired concurrency 15.
-[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/europa-fc_fc-brunos-magpies/index/spielbericht/4698205 failed and reached maximum retries
+[90m[crawlee._autoscaling.autoscaled_pool][0m [32mINFO [0m current_concurrency = 13; desired_concurrency = 13; cpu = 0.0; mem = 0.0; event_loop = 0.0; client_info = 0.0
+[90m[ParselCrawler][0m [32mINFO [0m Crawled 53/134 pages, 0 failed requests, desired concurrency 13.
+[90m[ParselCrawler][0m [32mINFO [0m Crawled 99/134 pages, 0 failed requests, desired concurrency 14.
+[90m[ParselCrawler][0m [32mINFO [0m Crawled 132/134 pages, 0 failed requests, desired concurrency 15.
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/glacis-united_lincoln-red-imps-fc/index/spielbericht/4698192 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/glacis-united_lincoln-red-imps-fc/index/spielbericht/4698192 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
+[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/glacis-united_lincoln-red-imps-fc/index/spielbericht/4698192 due to: Error status code returned (status code: 502).. File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code,     raise HttpStatusCodeError('Error status code returned', status_code)
+[90m[ParselCrawler][0m [32mINFO [0m Crawled 133/134 pages, 0 failed requests, desired concurrency 15.
+[90m[ParselCrawler][0m [31mERROR[0m Request to https://www.transfermarkt.co.uk/glacis-united_lincoln-red-imps-fc/index/spielbericht/4698192 failed and reached maximum retries
  Traceback (most recent call last):
   File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_context_pipeline.py", line 100, in __call__
     result = await middleware_instance.action()
@@ -67,23 +52,19 @@
   File "/usr/local/lib/python3.12/site-packages/crawlee/crawlers/_basic/_basic_crawler.py", line 1564, in _raise_for_error_status_code
     raise HttpStatusCodeError('Error status code returned', status_code)
 crawlee.errors.HttpStatusCodeError: Error status code returned (status code: 502).
-[90m[ParselCrawler][0m [32mINFO [0m Crawled 132/134 pages, 1 failed requests, desired concurrency 16.
-[90m[ParselCrawler][0m [32mINFO [0m Crawled 132/134 pages, 1 failed requests, desired concurrency 16.
-[90m[ParselCrawler][0m [33mWARN [0m Retrying request to https://www.transfermarkt.co.uk/fc-hound-dogs_europa-point-fc/index/spielbericht/4698191 due to: . ,  File "/usr/local/lib/python3.12/site-packages/crawlee/http_clients/_impit.py", line 133, in crawl,     response = await client.request(
-[90m[ParselCrawler][0m [32mINFO [0m Crawled 132/134 pages, 1 failed requests, desired concurrency 16.
 [90m[crawlee._autoscaling.autoscaled_pool][0m [32mINFO [0m Waiting for remaining tasks to finish
-[90m[ParselCrawler][0m [32mINFO [0m Error analysis: total_errors=22 unique_errors=2
+[90m[ParselCrawler][0m [32mINFO [0m Error analysis: total_errors=4 unique_errors=1
 [90m[ParselCrawler][0m [32mINFO [0m Final request statistics:
-┌───────────────────────────────┬─────────────────┐
-│ requests_finished             │ 133             │
-│ requests_failed               │ 1               │
-│ retry_histogram               │ [115, 18, 0, 1] │
-│ request_avg_failed_duration   │ 381.1ms         │
-│ request_avg_finished_duration │ 3.74s           │
-│ requests_finished_per_minute  │ 79              │
-│ requests_failed_per_minute    │ 0               │
-│ request_total_duration        │ 8min 17.4s      │
-│ requests_total                │ 134             │
-│ crawler_runtime               │ 1min 40.6s      │
-└───────────────────────────────┴─────────────────┘
-[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/europa-fc_fc-brunos-magpies/index/spielbericht/4698205: Error status code returned (status code: 502).
+┌───────────────────────────────┬────────────────┐
+│ requests_finished             │ 133            │
+│ requests_failed               │ 1              │
+│ retry_histogram               │ [133, 0, 0, 1] │
+│ request_avg_failed_duration   │ 543.4ms        │
+│ request_avg_finished_duration │ 3.44s          │
+│ requests_finished_per_minute  │ 88             │
+│ requests_failed_per_minute    │ 0              │
+│ request_total_duration        │ 7min 37.9s     │
+│ requests_total                │ 134            │
+│ crawler_runtime               │ 1min 30.9s     │
+└───────────────────────────────┴────────────────┘
+[90m[tfmkt.common][0m [31mERROR[0m Failed to scrape https://www.transfermarkt.co.uk/glacis-united_lincoln-red-imps-fc/index/spielbericht/4698192: Error status code returned (status code: 502).
