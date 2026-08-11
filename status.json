@@ -7,8 +7,8 @@
     "2007"
   ],
   "last_month": "2026-08",
-  "last_run_at": "2026-08-10T04:19:17+00:00",
-  "last_run_minutes": 22,
+  "last_run_at": "2026-08-11T04:06:50+00:00",
+  "last_run_minutes": 21,
   "last_run_workflow": "scrape-daily",
-  "minutes_used_this_month": 213
+  "minutes_used_this_month": 234
 }
